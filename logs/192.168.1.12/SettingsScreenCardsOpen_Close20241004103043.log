@@ -1,0 +1,88 @@
+--------- beginning of system
+10-04 10:30:42.825   696  1326 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.airtel.tv/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 result code=-92
+--------- beginning of main
+10-04 10:30:43.956   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43948, expected nextSeqNum = 43948
+10-04 10:30:43.957   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43948,should SeqNum=43948, status = 0
+10-04 10:30:44.240  1154  1154 I ThermalService: CPU temperatures: [45.000004]
+--------- beginning of kernel
+10-04 10:30:44.514     0     0 W [0 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:30:44.514     0     0 W [0 T1289  ..] RTW: cfg80211_rtw_get_txpower
+10-04 10:30:44.956   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43949, expected nextSeqNum = 43949
+10-04 10:30:44.957   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43949,should SeqNum=43949, status = 0
+10-04 10:30:45.956   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43950, expected nextSeqNum = 43950
+10-04 10:30:45.957   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43950,should SeqNum=43950, status = 0
+10-04 10:30:46.244  1154  1154 I ThermalService: CPU temperatures: [45.2]
+10-04 10:30:46.422   424   582 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=2110720000
+10-04 10:30:46.598  8084  9231 D EPG_RemoveWorker: Running status changed to false
+10-04 10:30:46.602  8084  8195 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=8f2451e0-50b8-4443-bb18-f95bc6494e25, tags={ tv.airtel.xstream.epg.worker.EPGRemoveWorker } ]
+10-04 10:30:46.615  8084  8195 I WM-WorkerWrapper: Setting status to enqueued for f2da407d-d78c-4e57-a88a-ed062ca3f35d
+--------- beginning of system
+10-04 10:30:46.627   696  1326 W ProcessStats: Tracking association SourceState{3edf2a9 com.airtel.tv/10043 BTop #12160} whose proc state 2 is better than process ProcessState{514aa4f com.tataelxsi.icx:remote/10066 pkg=com.tataelxsi.icx} proc state 3 (21 skipped)
+10-04 10:30:46.686  8084  9231 D EPG_ChannelWorker: Process started
+10-04 10:30:46.772  8084  9231 D TrafficStats: tagSocket(120) with statsTag=0xffffffff, statsUid=-1
+10-04 10:30:46.956   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43951, expected nextSeqNum = 43951
+10-04 10:30:46.957   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43951,should SeqNum=43951, status = 0
+10-04 10:30:47.520     0     0 W [2 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:30:47.520     0     0 W [2 T1289  ..] RTW: cfg80211_rtw_get_txpower
+10-04 10:30:47.956   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43952, expected nextSeqNum = 43952
+10-04 10:30:47.958   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43952,should SeqNum=43952, status = 0
+--------- beginning of main
+10-04 10:30:48.247  1154  1154 I ThermalService: CPU temperatures: [44.600002]
+10-04 10:30:48.957   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43953, expected nextSeqNum = 43953
+10-04 10:30:48.958   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43953,should SeqNum=43953, status = 0
+--------- beginning of main
+10-04 10:30:49.563  8084  8093 I com.airtel.tv: Background young concurrent copying GC freed 511055(21MB) AllocSpace objects, 12(816KB) LOS objects, 14% free, 128MB/151MB, paused 366us,133us total 174.615ms
+10-04 10:30:49.957   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43954, expected nextSeqNum = 43954
+10-04 10:30:49.958   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43954,should SeqNum=43954, status = 0
+10-04 10:30:50.251  1154  1154 I ThermalService: CPU temperatures: [44.100002]
+--------- beginning of kernel
+10-04 10:30:50.524     0     0 W [2 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:30:50.524     0     0 W [2 T1289  ..] RTW: cfg80211_rtw_get_txpower
+--------- beginning of main
+10-04 10:30:50.957   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43955, expected nextSeqNum = 43955
+10-04 10:30:50.958   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43955,should SeqNum=43955, status = 0
+--------- beginning of main
+10-04 10:30:51.957   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43956, expected nextSeqNum = 43956
+10-04 10:30:51.958   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43956,should SeqNum=43956, status = 0
+10-04 10:30:52.254  1154  1154 I ThermalService: CPU temperatures: [44.100002]
+--------- beginning of main
+10-04 10:30:52.958   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43957,should SeqNum=43957, status = 0
+--------- beginning of kernel
+10-04 10:30:53.527     0     0 W [1 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:30:53.527     0     0 W [1 T1289  ..] RTW: cfg80211_rtw_get_txpower
+10-04 10:30:53.958   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43958, expected nextSeqNum = 43958
+10-04 10:30:53.959   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43958,should SeqNum=43958, status = 0
+--------- beginning of main
+10-04 10:30:54.258  1154  1154 I ThermalService: CPU temperatures: [44.100002]
+10-04 10:30:54.886   424   582 I audio_hw_hal_alsamgr: alsa format =0x9000000 delay frames =1408 total frames=2110464000
+10-04 10:30:54.958   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43959, expected nextSeqNum = 43959
+10-04 10:30:54.959   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43959,should SeqNum=43959, status = 0
+--------- beginning of main
+10-04 10:30:55.958   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43960, expected nextSeqNum = 43960
+10-04 10:30:55.959   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43960,should SeqNum=43960, status = 0
+10-04 10:30:56.261  1154  1154 I ThermalService: CPU temperatures: [43.9]
+--------- beginning of kernel
+10-04 10:30:56.533     0     0 W [2 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:30:56.533     0     0 W [2 T1289  ..] RTW: cfg80211_rtw_get_txpower
+--------- beginning of main
+10-04 10:30:56.958   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43961, expected nextSeqNum = 43961
+10-04 10:30:56.959   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43961,should SeqNum=43961, status = 0
+10-04 10:30:57.089   424   582 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=2111232000
+10-04 10:30:57.204  6706  6706 I cast_shell: [1004/103057.204709:INFO:service_base.h(78)] Size of the map for type AuthTokenResponse is 0
+10-04 10:30:57.232  6706  6706 I cast_shell: [1004/103057.232392:INFO:service_base.h(246)] Container sizes for type CloudSetting are (session_info_map: 0), (topic_info_map: 21), (pending_events: 0).
+10-04 10:30:57.294  6706  6706 I cast_shell: [1004/103057.294832:INFO:metrics_stat_logger.cc(38)] Metrics stat for the past 60 secs : total=6
+10-04 10:30:57.294  6706  6706 I cast_shell: [metrics_stat_logger] Cast.CecHdmiInputState.Active=1
+10-04 10:30:57.294  6706  6706 I cast_shell: [metrics_stat_logger] Cast.CecStandby.On=1
+10-04 10:30:57.294  6706  6706 I cast_shell: [metrics_stat_logger] Cast.ConnectionType.Wifi=1
+10-04 10:30:57.294  6706  6706 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.Request.In=2
+10-04 10:30:57.294  6706  6706 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.Response.Out=2
+10-04 10:30:57.294  6706  6706 I cast_shell: [metrics_stat_logger] Cast.Network.CheckIn=1
+10-04 10:30:57.959   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43962, expected nextSeqNum = 43962
+10-04 10:30:57.960   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43962,should SeqNum=43962, status = 0
+10-04 10:30:58.086   696   752 I system_server: Background young concurrent copying GC freed 517182(18MB) AllocSpace objects, 6(152KB) LOS objects, 47% free, 21MB/39MB, paused 4.342ms,200us total 136.841ms
+10-04 10:30:58.265  1154  1154 I ThermalService: CPU temperatures: [44.100002]
+10-04 10:30:58.726  6706  6767 I cast_shell: [1004/103058.726065:INFO:mdns_app_filter.cc(3550)] Mdns cast queries recently sent: queries=1
+10-04 10:30:58.959   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43963, expected nextSeqNum = 43963
+10-04 10:30:58.960   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43963,should SeqNum=43963, status = 0
+10-04 10:30:59.539     0     0 W [2 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:30:59.540     0     0 W [2 T1289  ..] RTW: cfg80211_rtw_get_txpower

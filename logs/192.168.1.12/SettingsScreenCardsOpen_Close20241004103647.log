@@ -1,0 +1,60 @@
+--------- beginning of system
+10-04 10:36:46.745   696  1088 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.airtel.tv/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 result code=-92
+--------- beginning of main
+10-04 10:36:47.023   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44311, expected nextSeqNum = 44311
+10-04 10:36:47.025   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44311,should SeqNum=44311, status = 0
+10-04 10:36:48.024   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44312, expected nextSeqNum = 44312
+10-04 10:36:48.025   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44312,should SeqNum=44312, status = 0
+--------- beginning of kernel
+10-04 10:36:48.099     0     0 W [2 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:36:48.099     0     0 W [2 T1289  ..] RTW: cfg80211_rtw_get_txpower
+10-04 10:36:48.895  1154  1154 I ThermalService: CPU temperatures: [42.600002]
+10-04 10:36:49.024   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44313, expected nextSeqNum = 44313
+10-04 10:36:49.025   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44313,should SeqNum=44313, status = 0
+10-04 10:36:49.089   424   582 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=2128128000
+10-04 10:36:49.886  8084  8084 D Glide   : Finished loading BitmapDrawable from MEMORY_CACHE for http://tvimg.wynk.in/unsafe/fit-in/1920x548/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/tile/artwork/1727811264485_1727723377178_auron_mein_kahan_dum_tha.jpg with size [-2147483648x-2147483648] in 0.563458 ms
+10-04 10:36:50.024   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44314, expected nextSeqNum = 44314
+10-04 10:36:50.025   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44314,should SeqNum=44314, status = 0
+10-04 10:36:50.899  1154  1154 I ThermalService: CPU temperatures: [42.500004]
+10-04 10:36:51.024   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44315, expected nextSeqNum = 44315
+10-04 10:36:51.026   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44315,should SeqNum=44315, status = 0
+10-04 10:36:51.105     0     0 W [3 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:36:51.106     0     0 W [3 T1289  ..] RTW: cfg80211_rtw_get_txpower
+10-04 10:36:52.024   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44316, expected nextSeqNum = 44316
+10-04 10:36:52.026   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44316,should SeqNum=44316, status = 0
+--------- beginning of main
+10-04 10:36:52.903  1154  1154 I ThermalService: CPU temperatures: [42.500004]
+10-04 10:36:53.025   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44317, expected nextSeqNum = 44317
+10-04 10:36:53.036   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44317,should SeqNum=44317, status = 0
+--------- beginning of main
+10-04 10:36:54.025   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44318, expected nextSeqNum = 44318
+10-04 10:36:54.036   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44318,should SeqNum=44318, status = 0
+--------- beginning of kernel
+10-04 10:36:54.112     0     0 W [3 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:36:54.112     0     0 W [3 T1289  ..] RTW: cfg80211_rtw_get_txpower
+10-04 10:36:54.423   424   582 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=2128384000
+--------- beginning of main
+10-04 10:36:54.903  8084  8084 D Glide   : Finished loading BitmapDrawable from MEMORY_CACHE for http://tvimg.wynk.in/unsafe/fit-in/1920x548/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/tile/artwork/1727811858264_airtel-stb_ind-vs-nz-3-oct-7.30pm_ss1hd_hindi_1920-x-548.jpg with size [-2147483648x-2147483648] in 0.428542 ms
+10-04 10:36:54.906  1154  1154 I ThermalService: CPU temperatures: [42.600002]
+10-04 10:36:55.025   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44319, expected nextSeqNum = 44319
+10-04 10:36:55.026   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44319,should SeqNum=44319, status = 0
+--------- beginning of main
+10-04 10:36:56.025   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44320, expected nextSeqNum = 44320
+10-04 10:36:56.026   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44320,should SeqNum=44320, status = 0
+--------- beginning of main
+10-04 10:36:57.026   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44321, expected nextSeqNum = 44321
+10-04 10:36:57.027   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44321,should SeqNum=44321, status = 0
+--------- beginning of kernel
+10-04 10:36:57.117     0     0 W [3 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:36:57.117     0     0 W [3 T1289  ..] RTW: cfg80211_rtw_get_txpower
+10-04 10:36:57.207  6706  6706 I cast_shell: [1004/103657.207819:INFO:service_base.h(78)] Size of the map for type AuthTokenResponse is 0
+10-04 10:36:57.236  6706  6706 I cast_shell: [1004/103657.235934:INFO:service_base.h(246)] Container sizes for type CloudSetting are (session_info_map: 0), (topic_info_map: 21), (pending_events: 0).
+10-04 10:36:57.295  6706  6706 I cast_shell: [1004/103657.295741:INFO:metrics_stat_logger.cc(38)] Metrics stat for the past 60 secs : total=2
+10-04 10:36:57.295  6706  6706 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.Request.In=2
+10-04 10:36:57.295  6706  6706 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.Response.Out=2
+--------- beginning of main
+10-04 10:36:58.911  1154  1154 I ThermalService: CPU temperatures: [42.500004]
+10-04 10:36:59.026   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 44323, expected nextSeqNum = 44323
+10-04 10:36:59.027   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 44323,should SeqNum=44323, status = 0
+--------- beginning of kernel
+10-04 10:36:59.215     0     0 I [0 T230   ..] logd: logdr: UID=2000 GID=2000 PID=11753 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns

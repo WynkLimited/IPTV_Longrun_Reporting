@@ -1,0 +1,144 @@
+--------- beginning of main
+10-04 10:25:25.899   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43630, expected nextSeqNum = 43630
+10-04 10:25:25.901   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43630,should SeqNum=43630, status = 0
+--------- beginning of kernel
+10-04 10:25:26.032     0     0 W [2 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:25:26.032     0     0 W [2 T1289  ..] RTW: cfg80211_rtw_get_txpower
+--------- beginning of system
+10-04 10:25:26.021   696   799 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.airtel.tv/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 result code=-92
+--------- beginning of main
+10-04 10:25:26.422   424   582 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=2095360000
+10-04 10:25:26.900   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43631, expected nextSeqNum = 43631
+10-04 10:25:26.901   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43631,should SeqNum=43631, status = 0
+10-04 10:25:27.751  1154  1154 I ThermalService: CPU temperatures: [45.000004]
+10-04 10:25:27.900   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43632, expected nextSeqNum = 43632
+10-04 10:25:27.901   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43632,should SeqNum=43632, status = 0
+10-04 10:25:28.900   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43633, expected nextSeqNum = 43633
+10-04 10:25:28.901   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43633,should SeqNum=43633, status = 0
+--------- beginning of kernel
+10-04 10:25:29.038     0     0 W [0 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:25:29.038     0     0 W [0 T1289  ..] RTW: cfg80211_rtw_get_txpower
+10-04 10:25:29.755  1154  1154 I ThermalService: CPU temperatures: [44.9]
+10-04 10:25:29.900   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43634, expected nextSeqNum = 43634
+10-04 10:25:29.901   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43634,should SeqNum=43634, status = 0
+10-04 10:25:30.181   696   752 I system_server: Background concurrent copying GC freed 380296(19MB) AllocSpace objects, 5(168KB) LOS objects, 50% free, 19MB/39MB, paused 249us,222us total 443.181ms
+10-04 10:25:30.184   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.184   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.184   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.184   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.184   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.185   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.185   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.185   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.185   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.185   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.185   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.185   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.185   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.185   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.186   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.186   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.187   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.187   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.188   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.188   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.189   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.189   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.190   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.190   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.190   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.191   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.191   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.191   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.192   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.192   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.193   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.193   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.194   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.194   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.194   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.195   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.196   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.196   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.197   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.197   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.197   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.198   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.198   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.198   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.199   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.199   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.201   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.201   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.201   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.202   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.204   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.204   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.206   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.206   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.207   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.207   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.212   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.213   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.215   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.215   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.216   696   753 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-04 10:25:30.217   696   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-04 10:25:30.900   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43635, expected nextSeqNum = 43635
+10-04 10:25:30.902   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43635,should SeqNum=43635, status = 0
+--------- beginning of main
+10-04 10:25:31.756   424   582 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=2095616000
+10-04 10:25:31.758  1154  1154 I ThermalService: CPU temperatures: [44.9]
+10-04 10:25:31.901   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43636, expected nextSeqNum = 43636
+10-04 10:25:31.902   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43636,should SeqNum=43636, status = 0
+--------- beginning of kernel
+10-04 10:25:32.041     0     0 W [2 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:25:32.041     0     0 W [2 T1289  ..] RTW: cfg80211_rtw_get_txpower
+--------- beginning of main
+10-04 10:25:32.901   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43637, expected nextSeqNum = 43637
+10-04 10:25:32.902   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43637,should SeqNum=43637, status = 0
+--------- beginning of kernel
+10-04 10:25:33.759     0     0 I [0 T230   ..] logd: logdr: UID=2000 GID=2000 PID=10923 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+--------- beginning of main
+10-04 10:25:33.901   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43638, expected nextSeqNum = 43638
+10-04 10:25:33.902   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43638,should SeqNum=43638, status = 0
+10-04 10:25:34.884   424   582 I audio_hw_hal_alsamgr: alsa format =0x9000000 delay frames =1536 total frames=2095104000
+10-04 10:25:34.901   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43639, expected nextSeqNum = 43639
+10-04 10:25:34.902   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43639,should SeqNum=43639, status = 0
+--------- beginning of kernel
+10-04 10:25:35.044     0     0 W [2 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:25:35.044     0     0 W [2 T1289  ..] RTW: cfg80211_rtw_get_txpower
+10-04 10:25:35.110     0     0 I [1 T230   ..] logd: logdr: UID=2000 GID=2000 PID=10928 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+--------- beginning of main
+10-04 10:25:35.767  1154  1154 I ThermalService: CPU temperatures: [45.4]
+10-04 10:25:35.901   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43640, expected nextSeqNum = 43640
+10-04 10:25:35.902   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43640,should SeqNum=43640, status = 0
+--------- beginning of main
+10-04 10:25:36.901   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43641, expected nextSeqNum = 43641
+10-04 10:25:36.902   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43641,should SeqNum=43641, status = 0
+10-04 10:25:37.089   424   582 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=2095872000
+--------- beginning of main
+10-04 10:25:37.770  1154  1154 I ThermalService: CPU temperatures: [45.100002]
+10-04 10:25:37.902   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43642, expected nextSeqNum = 43642
+10-04 10:25:37.903   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43642,should SeqNum=43642, status = 0
+--------- beginning of kernel
+10-04 10:25:38.047     0     0 W [3 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:25:38.048     0     0 W [3 T1289  ..] RTW: cfg80211_rtw_get_txpower
+--------- beginning of main
+10-04 10:25:38.902   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43643, expected nextSeqNum = 43643
+10-04 10:25:38.903   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43643,should SeqNum=43643, status = 0
+10-04 10:25:39.773  1154  1154 I ThermalService: CPU temperatures: [45.2]
+--------- beginning of main
+10-04 10:25:39.902   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43644, expected nextSeqNum = 43644
+10-04 10:25:39.903   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43644,should SeqNum=43644, status = 0
+10-04 10:25:40.902   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43645, expected nextSeqNum = 43645
+10-04 10:25:40.903   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43645,should SeqNum=43645, status = 0
+--------- beginning of kernel
+10-04 10:25:41.052     0     0 W [0 T1289  ..] RTW: rtw_get_sta_tx_stat() not support
+10-04 10:25:41.052     0     0 W [0 T1289  ..] RTW: cfg80211_rtw_get_txpower
+10-04 10:25:41.775  1154  1154 I ThermalService: CPU temperatures: [45.500004]
+10-04 10:25:41.902   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43646, expected nextSeqNum = 43646
+10-04 10:25:41.903   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43646,should SeqNum=43646, status = 0
+10-04 10:25:42.422   424   582 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=2096128000
+10-04 10:25:42.902   426  1494 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 43647, expected nextSeqNum = 43647
+10-04 10:25:42.903   426  1381 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 43647,should SeqNum=43647, status = 0

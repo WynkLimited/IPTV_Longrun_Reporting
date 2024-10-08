@@ -1,0 +1,215 @@
+--------- beginning of main
+10-07 13:29:09.420   474   955 D TimeStats: Enabled
+10-07 13:29:09.421   707  3060 W SurfaceFlingerPuller: Failed to pull atom 10062 from surfaceflinger. Success is 0, binder status is EX_NONE
+10-07 13:29:09.423   396  1381 E statsd  : Gauge Stats puller failed for tag: 10062 at 119377964681
+10-07 13:29:09.474   707  3060 W OpenGLRenderer: file_version mismatch! expected 1 got 0
+10-07 13:29:09.485   396  1381 W statsd  : StatsPullerManager: Unknown tagId 10205
+10-07 13:29:09.485   396  1381 E statsd  : Gauge Stats puller failed for tag: 10205 at 119377964681
+10-07 13:29:09.486   396  1381 W statsd  : StatsPullerManager: Unknown tagId 10156
+10-07 13:29:09.486   396  1381 E statsd  : Gauge Stats puller failed for tag: 10156 at 119377964681
+10-07 13:29:09.486   396  1381 W statsd  : StatsPullerManager: Unknown tagId 10078
+10-07 13:29:09.486   396  1381 E statsd  : Gauge Stats puller failed for tag: 10078 at 119377964681
+10-07 13:29:09.522   454   454 D memtrack-gpusysfsreader: open /sys/class/misc/mali0/device/mem_pool_size success!
+10-07 13:29:09.522   454   454 D memtrack-gpusysfsreader: line:3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10-07 13:29:09.526   396  1381 W statsd  : StatsPullerManager: Unknown tagId 10146
+10-07 13:29:09.526   396  1381 E statsd  : Gauge Stats puller failed for tag: 10146 at 119377964681
+10-07 13:29:09.624   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 91, expected nextSeqNum = 91
+10-07 13:29:09.625   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 91,should SeqNum=91, status = 0
+10-07 13:29:09.724   707  3060 W Settings: Setting notification_bubbles has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+10-07 13:29:09.725   707  3060 W Settings: Setting apply_ramping_ringer has moved from android.provider.Settings.Global to android.provider.Settings.System, returning read-only value.
+--------- beginning of system
+10-07 13:29:09.812   707  1641 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.airtel.tv/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 result code=-92
+10-07 13:29:09.968  4596  4596 W main    : type=1400 audit(0.0:42): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=132 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-07 13:29:09.968  4596  4596 W main    : type=1400 audit(0.0:43): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=132 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-07 13:29:09.968  4596  4596 W main    : type=1400 audit(0.0:44): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=132 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-07 13:29:09.971  4596  4596 W libc    : Access denied finding property "ro.product.name_for_attestation"
+10-07 13:29:09.972  4596  4596 W libc    : Access denied finding property "ro.product.brand_for_attestation"
+10-07 13:29:09.972  4596  4596 W libc    : Access denied finding property "ro.product.model_for_attestation"
+10-07 13:29:10.000  4596  4596 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of main
+10-07 13:29:10.289  1624  1624 D Glide   : Finished loading BitmapDrawable from REMOTE for http://tvimg.wynk.in/unsafe/fit-in/1920x548/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/tile/artwork/1728242377444_farrey.jpg with size [-2147483648x-2147483648] in 427.546834 ms
+--------- beginning of system
+10-07 13:29:10.359   707  1641 W ActivityManager: registerReceiverWithFeature: no app for null
+10-07 13:29:10.375  4596  4596 W System  : No Compatibility callbacks set! Querying change 263076149
+10-07 13:29:10.376  4596  4596 W System  : No Compatibility callbacks set! Querying change 263076149
+10-07 13:29:10.376  4596  4596 W System  : No Compatibility callbacks set! Querying change 263076149
+10-07 13:29:10.384  4596  4596 W Monkey  : // Warning: no activities found for category android.intent.category.MONKEY
+10-07 13:29:10.391  4596  4596 D TrafficStats: tagSocket(44) with statsTag=0xffffffff, statsUid=-1
+10-07 13:29:10.625   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 92, expected nextSeqNum = 92
+10-07 13:29:10.626   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 92,should SeqNum=92, status = 0
+10-07 13:29:10.892  1624  1658 I com.airtel.tv: Background young concurrent copying GC freed 282236(10199KB) AllocSpace objects, 1(132KB) LOS objects, 18% free, 43MB/53MB, paused 543us,209us total 226.083ms
+10-07 13:29:11.353  1143  1143 I ThermalService: CPU temperatures: [48.500004]
+10-07 13:29:11.625   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 93, expected nextSeqNum = 93
+10-07 13:29:11.626   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 93,should SeqNum=93, status = 0
+--------- beginning of kernel
+10-07 13:29:11.998     0     0 W [1 T1167  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:29:11.998     0     0 W [1 T1167  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:29:12.625   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 94, expected nextSeqNum = 94
+10-07 13:29:12.626   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 94,should SeqNum=94, status = 0
+10-07 13:29:13.114  3092  3092 I cast_shell: [1007/132913.096629:INFO:metrics_stat_logger.cc(38)] Metrics stat for the past 60 secs : total=34
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.AndroidTv.Autostart.To.Discovery.LatencyMs=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Auth.OK=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.CRL.DownloadScheduled=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.CRL.Restored=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.DCS.DownloadSuccess=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.Request.In=20
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.ResponderPing=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.ResponderStarted=2
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.ResponderStopped=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.Response.Error.Starting=2
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.Response.Out=18
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.SocketCreated=4
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.SocketDestroyed=2
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Discovery.Mdns.SocketPing=2
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Experiments.ServerExperiment=66
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Network.LocalIpFragment=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Network.Up=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Platform.OutputResolution=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.Platform.UnexpectedExit=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.RobotAccountAuth.FetchToken=3
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.RobotAccountAuth.Update.NOT_LINKED.NOT_LINKED=2
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.RobotAccountAuth.Update.TOKEN_NOT_FETCHED.NOT_LINKED=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.System.Time.Heartbeat=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cast.System.Timezone.ChangeSuccessful=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cloud.Transport.Https.Config.In=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cloud.Transport.Https.LinkedStatus.NotLinked=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cloud.Transport.Https.Register.Out=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Cloud.Transport.Https.Register.Out.Success=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Dial.SsdpDeviceDesc.Linux=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Dial.SsdpDeviceDesc.Linux.200=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Gcm.Register.Out=2
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Gcm.Register.Success=2
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Setup.eureka_info.Local=1
+10-07 13:29:13.114  3092  3092 I cast_shell: [metrics_stat_logger] Setup.eureka_info.Local.200=1
+10-07 13:29:13.356  1143  1143 I ThermalService: CPU temperatures: [48.500004]
+10-07 13:29:13.415  3092  3638 I cast_shell: [1007/132913.415400:INFO:mdns_app_filter.cc(3550)] Mdns cast queries recently sent: queries=4
+10-07 13:29:13.625   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 95, expected nextSeqNum = 95
+10-07 13:29:13.626   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 95,should SeqNum=95, status = 0
+10-07 13:29:14.607   422   581 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=5376000
+10-07 13:29:14.626   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 96, expected nextSeqNum = 96
+10-07 13:29:14.627   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 96,should SeqNum=96, status = 0
+10-07 13:29:14.664   422   581 I audio_hw_hal_alsamgr: alsa format =0x9000000 delay frames =1536 total frames=4608000
+10-07 13:29:14.862  1624  1658 I com.airtel.tv: Background young concurrent copying GC freed 264367(7541KB) AllocSpace objects, 0(0B) LOS objects, 13% free, 46MB/53MB, paused 1.457ms,322us total 253.073ms
+10-07 13:29:15.005     0     0 W [3 T1167  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:29:15.005     0     0 W [3 T1167  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:29:15.338  1624  1624 D Glide   : Finished loading BitmapDrawable from REMOTE for http://tvimg.wynk.in/unsafe/fit-in/1920x548/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/tile/artwork/1728118772679_airtel-xstream-stb-(1920-x-548)-trop-s2-finale.jpg with size [-2147483648x-2147483648] in 305.54112499999997 ms
+10-07 13:29:15.359  1143  1143 I ThermalService: CPU temperatures: [48.100002]
+10-07 13:29:15.626   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 97, expected nextSeqNum = 97
+10-07 13:29:15.627   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 97,should SeqNum=97, status = 0
+10-07 13:29:16.626   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 98, expected nextSeqNum = 98
+10-07 13:29:16.627   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 98,should SeqNum=98, status = 0
+10-07 13:29:17.291   618   618 W adbd    : timeout expired while flushing socket, closing
+10-07 13:29:17.361  1143  1143 I ThermalService: CPU temperatures: [46.7]
+10-07 13:29:17.626   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 99, expected nextSeqNum = 99
+10-07 13:29:17.627   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 99,should SeqNum=99, status = 0
+10-07 13:29:18.013     0     0 W [3 T1167  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:29:18.014     0     0 W [3 T1167  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:29:18.055  3092  3092 I cast_shell: [1007/132918.055841:INFO:robot_account_auth_manager.cc(374)] Sending oauth request for client_id: 0
+10-07 13:29:18.056  3092  3092 I cast_shell: [1007/132918.056161:INFO:metrics_recorder.cc(193)] cast event: Cast.RobotAccountAuth.FetchToken
+10-07 13:29:18.056  3092  3325 I cast_shell: [1007/132918.056249:INFO:chromium_http_connection.cc(443)] Creating a new chromium http url loader factory
+10-07 13:29:18.626   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 100, expected nextSeqNum = 100
+10-07 13:29:18.627   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 100,should SeqNum=100, status = 0
+10-07 13:29:19.055   707  3060 D OomAdjuster: Not killing cached processes
+10-07 13:29:19.055   707  3060 W ProcessStats: Tracking association SourceState{a674c30 com.google.android.gms.persistent/10073 Fgs #1621} whose proc state 3 is better than process ProcessState{93db803 com.google.android.gms/10073 pkg=com.google.android.gms} proc state 4 (34 skipped)
+10-07 13:29:19.284   275  4602 I keystore2: system/security/keystore2/src/watchdog.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+10-07 13:29:19.364  1143  1143 I ThermalService: CPU temperatures: [46.100002]
+10-07 13:29:19.626   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 101, expected nextSeqNum = 101
+10-07 13:29:19.627   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 101,should SeqNum=101, status = 0
+10-07 13:29:19.941   422   581 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=5632000
+10-07 13:29:20.330  1624  1624 D Glide   : Finished loading BitmapDrawable from REMOTE for http://tvimg.wynk.in/unsafe/fit-in/1920x548/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/tile/artwork/1726337555333_1720121914436_companion-app_xstream-box_banner_1920x548.jpg with size [-2147483648x-2147483648] in 202.96445899999998 ms
+--------- beginning of main
+10-07 13:29:20.626   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 102, expected nextSeqNum = 102
+10-07 13:29:20.628   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 102,should SeqNum=102, status = 0
+--------- beginning of kernel
+10-07 13:29:21.019     0     0 W [2 T1167  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:29:21.019     0     0 W [2 T1167  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:29:21.366  1143  1143 I ThermalService: CPU temperatures: [46.500004]
+10-07 13:29:21.627   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 103, expected nextSeqNum = 103
+10-07 13:29:21.628   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 103,should SeqNum=103, status = 0
+--------- beginning of main
+10-07 13:29:22.627   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 104, expected nextSeqNum = 104
+10-07 13:29:22.628   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 104,should SeqNum=104, status = 0
+10-07 13:29:22.860   604   604 E logging : not found!
+10-07 13:29:22.914  3092  3092 I cast_shell: [1007/132922.914381:INFO:robot_account_auth_manager.cc(498)] Got CAS response: 200
+10-07 13:29:22.914  3092  3092 I cast_shell: [1007/132922.914601:INFO:metrics_recorder.cc(193)] cast event: Cast.RobotAccountAuth.Update.NOT_LINKED.NOT_LINKED
+10-07 13:29:22.914  3092  3092 I cast_shell: [1007/132922.914739:INFO:robot_account_auth_manager.cc(740)] Current error: NOT_LINKED, new error: NOT_LINKED
+--------- beginning of main
+10-07 13:29:23.222  1624  1911 I TRuntime.CctTransportBackend: Making request to: https://firebaselogging-pa.googleapis.com/v1/firelog/legacy/batchlog
+10-07 13:29:23.368  1143  1143 I ThermalService: CPU temperatures: [46.7]
+10-07 13:29:23.627   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 105, expected nextSeqNum = 105
+10-07 13:29:23.628   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 105,should SeqNum=105, status = 0
+--------- beginning of kernel
+10-07 13:29:24.024     0     0 W [1 T1167  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:29:24.024     0     0 W [1 T1167  ..] RTW: cfg80211_rtw_get_txpower
+--------- beginning of main
+10-07 13:29:24.627   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 106, expected nextSeqNum = 106
+10-07 13:29:24.628   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 106,should SeqNum=106, status = 0
+10-07 13:29:25.275   422   581 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=5888000
+10-07 13:29:25.372  1143  1143 I ThermalService: CPU temperatures: [47.300003]
+10-07 13:29:25.410  1624  1658 I com.airtel.tv: Background young concurrent copying GC freed 224997(6209KB) AllocSpace objects, 2(264KB) LOS objects, 12% free, 46MB/53MB, paused 397us,227us total 107.836ms
+10-07 13:29:25.451  1624  1624 D Glide   : Finished loading BitmapDrawable from REMOTE for http://tvimg.wynk.in/unsafe/fit-in/1920x548/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-zion/zion/1675166889695-Multi-title_1920x548.jpeg with size [-2147483648x-2147483648] in 225.54874999999998 ms
+--------- beginning of system
+10-07 13:29:25.613   707  3060 D OomAdjuster: Not killing cached processes
+--------- beginning of main
+10-07 13:29:25.627   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 107, expected nextSeqNum = 107
+10-07 13:29:25.629   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 107,should SeqNum=107, status = 0
+10-07 13:29:25.794   707  1641 V Binder  : BinderProxy map growth! bucket size = 20 total = 1781
+10-07 13:29:25.794   707  1641 I RemoteProvisionSysSvc: getRegistration(android.hardware.security.keymint.IRemotelyProvisionedComponent/default)
+10-07 13:29:25.797   707  1641 D ActivityManager: sync unfroze 4482 com.android.rkpdapp for 6
+10-07 13:29:25.826   707   707 I RegistrationProxy: onServiceConnected: com.android.rkpdapp.service.RemoteProvisioningService
+10-07 13:29:25.829   277   277 D AmlogicKeymaster: id: 2, ctx: 0xf2ec0620, cmd: 140
+10-07 13:29:25.830   277   277 D AmlogicKeymaster: Received 53 byte response
+--------- beginning of kernel
+10-07 13:29:25.854     0     0 I [1 T220   ..] servicemanager: Found android.hardware.security.keymint.IRemotelyProvisionedComponent/default in device VINTF manifest.
+10-07 13:29:25.831   707  3060 I RegistrationProxy: IGetRegistrationCallback.onSuccess
+10-07 13:29:25.835   707  3060 I RemoteProvisionSysSvc: Fetching key 10073 for client 92899781
+10-07 13:29:25.835   707  3060 I RegistrationProxy: getKeyAsync operation started with callback 115859226
+10-07 13:29:25.846  4482  4673 I RkpdRegistrationBinder: Key requested for : android.hardware.security.keymint.IRemotelyProvisionedComponent/default, clientUid: 1017, keyId: 10073, callback: 148171665
+10-07 13:29:25.851  4482  4673 I RkpdRegistrationBinder: Key successfully assigned to client
+10-07 13:29:25.852   707   707 I RemoteProvisionSysSvc: Successfully fetched key for client 92899781
+10-07 13:29:25.856   277   277 D AmlogicKeymaster: id: 2, ctx: 0xf2ec0620, cmd: 0
+10-07 13:29:25.882   277   277 D AmlogicKeymaster: Received 1135 byte response
+10-07 13:29:25.905   277   277 D AmlogicKeymaster: id: 2, ctx: 0xf2ec0620, cmd: 88
+10-07 13:29:25.906   277   277 D AmlogicKeymaster: Received 4 byte response
+10-07 13:29:25.913   277   277 D AmlogicKeymaster: id: 2, ctx: 0xf2ec0620, cmd: 32
+10-07 13:29:25.915   277   277 D AmlogicKeymaster: Received 4 byte response
+10-07 13:29:26.627   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 108, expected nextSeqNum = 108
+10-07 13:29:26.629   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 108,should SeqNum=108, status = 0
+10-07 13:29:26.713     0     0 I [1 T228   ..] logd: logdr: UID=2000 GID=2000 PID=4676 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+--------- beginning of kernel
+10-07 13:29:27.029     0     0 W [2 T1167  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:29:27.030     0     0 W [2 T1167  ..] RTW: cfg80211_rtw_get_txpower
+--------- beginning of main
+10-07 13:29:27.018  1624  3421 D EPG_EPGWorker: EPG Day First Insertion Ended
+10-07 13:29:27.023  1624  3419 D MYYTAG  : getBulkList(
+10-07 13:29:27.258  1624  3421 D MYYTAG  : updateChannelListZap: Index: [Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_DIVYA_DARSHAN_42, name=Airtel Divya Darshan 42, number=42, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/658c28d93e86c83e10eb8504/images/LANDSCAPE_169/LANDSCAPE_169_Xrb8ZomML_Airtel-Divya-Darshan_264x144.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_DIVYA_DARSHAN_43, name=Airtel Divya Darshan 43, number=43, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/658c28cb9699c97abab2913d/images/LANDSCAPE_169/LANDSCAPE_169_aaU0A4brG_Airtel-Divya-Darshan_264x144.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_DIVYA_DARSHAN_44, name=Airtel Divya Darshan 44, number=44, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/658c28d09699c97abab2913e/images/LANDSCAPE_169/LANDSCAPE_169_86wWsJV8j_Airtel-Divya-Darshan_264x144.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_DIVYA_DARSHAN_45, name=Airtel Divya Darshan 45, number=45, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/658c28d09699c97abab2913f/images/LANDSCAPE_169/LANDSCAPE_169_lFIS22HOm_Airtel-Divya-Darshan_264x144.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_DIVYA_DARSHAN_46, name=Airtel Divya Darshan 46, number=46, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/658c28ce3e86c83e10eb84f6/images/LANDSCAPE_169/LANDSCAPE_169_l89cA-iYv_Airtel-Divya-Darshan_264x144.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_DIVYA_DARSHAN_47, name=Airtel Divya Darshan 47, number=47, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/658c28de3e86c83e10eb850b/images/LANDSCAPE_169/LANDSCAPE_169_g24KbPORF_Airtel-Divya-Darshan_264x144.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_INFO_HOME, name=Airtel Info Home, number=90, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/65736e7fd21a0c7577086087/images/721.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_NESA_INFO_1, name=Airtel NESA Info 1, number=91, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/65a0462369956244f9a12fd8/images/LANDSCAPE_169/LANDSCAPE_169_GzzNXkzC__Airtel-Nesa-infotainment-1_264x144.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_GUJARATI_INFO_1, name=Airtel Gujarati Info 1, number=93, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/65a046114dbbcb387b2ca791/images/LANDSCAPE_169/LANDSCAPE_169_27fW3eNG9_Airtel-Orissa-infotainment_264x144.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_INFO_HOME_2, name=Airtel Info Home 2, number=94, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/65736e79d21a0c757708606b/images/820-211218.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_TN_HOME, name=Airtel TN Home, number=96, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/6572f251fe0772265feddc5b/images/712.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_WELCOME_CHANNEL, name=Welcome Channel, number=97, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_LCN97/images/LANDSCAPE_169/LANDSCAPE_169_J4UtF3WEb_Airtel-Customer-care-2_264x144.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_SD_HOME, name=Airtel SD Home, number=98, programs=null, imageResource=https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/6572eedfdc5dfc4403f7a169/images/203.webp, isFavourite=false), Channel(channelId=LIVETV_LIVETVCHANNEL_AIRTEL_OFFERS_1, name=Airtel O
+10-07 13:29:27.266  1624  3421 D EPG_SCREEN: prefetch channel-Airtel Divya Darshan 42
+10-07 13:29:27.323  1624  3421 D EPG_SCREEN: prefetch programs-[Live Feed Of Dagdusheth Ganapati 24x7, Live Feed Of Dagdusheth Ganapati 24x7, Live Feed Of Dagdusheth Ganapati 24x7, Live Feed Of Dagdusheth Ganapati 24x7]
+10-07 13:29:27.323  1624  3421 D EPG_SCREEN: prefetch channels-[Airtel Divya Darshan 42]
+10-07 13:29:27.323  1624  3421 D EPG_SCREEN: prefetch channel-Airtel Divya Darshan 43
+10-07 13:29:27.374  1143  1143 I ThermalService: CPU temperatures: [46.000004]
+10-07 13:29:27.384  1624  3421 D EPG_SCREEN: prefetch programs-[Live Feed Of Shirdi Sai Baba 24x7, Live Feed Of Shirdi Sai Baba 24x7, Live Feed Of Shirdi Sai Baba 24x7, Live Feed Of Shirdi Sai Baba 24x7]
+10-07 13:29:27.384  1624  3421 D EPG_SCREEN: prefetch channels-[Airtel Divya Darshan 42, Airtel Divya Darshan 43]
+10-07 13:29:27.384  1624  3421 D EPG_SCREEN: prefetch channel-Airtel Divya Darshan 44
+10-07 13:29:27.438  1624  3421 D EPG_SCREEN: prefetch programs-[Live Feed Of Somnath Temple 24x7, Live Feed Of Somnath Temple 24x7, Live Feed Of Somnath Temple 24x7, Live Feed Of Somnath Temple 24x7]
+10-07 13:29:27.438  1624  3421 D EPG_SCREEN: prefetch channels-[Airtel Divya Darshan 42, Airtel Divya Darshan 43, Airtel Divya Darshan 44]
+10-07 13:29:27.438  1624  3421 D EPG_SCREEN: prefetch channel-Airtel Divya Darshan 45
+10-07 13:29:27.489  1624  3421 D EPG_SCREEN: prefetch programs-[Live Feed Of Shree Mahakaleshwar Ujjain 24x7, Live Feed Of Shree Mahakaleshwar Ujjain 24x7, Live Feed Of Shree Mahakaleshwar Ujjain 24x7, Live Feed Of Shree Mahakaleshwar Ujjain 24x7]
+10-07 13:29:27.489  1624  3421 D EPG_SCREEN: prefetch channels-[Airtel Divya Darshan 42, Airtel Divya Darshan 43, Airtel Divya Darshan 44, Airtel Divya Darshan 45]
+10-07 13:29:27.490  1624  3421 D EPG_SCREEN: prefetch channel-Airtel Divya Darshan 46
+10-07 13:29:27.542  1624  3421 D EPG_SCREEN: prefetch programs-[Live Feed Of Iskcon Vrindavan 24x7, Live Feed Of Iskcon Vrindavan 24x7, Live Feed Of Iskcon Vrindavan 24x7, Live Feed Of Iskcon Vrindavan 24x7]
+10-07 13:29:27.543  1624  3421 D EPG_SCREEN: prefetch channels-[Airtel Divya Darshan 42, Airtel Divya Darshan 43, Airtel Divya Darshan 44, Airtel Divya Darshan 45, Airtel Divya Darshan 46]
+10-07 13:29:27.543  1624  3421 D EPG_SCREEN: prefetch channel-Airtel Divya Darshan 47
+10-07 13:29:27.606  1624  3421 D EPG_SCREEN: prefetch programs-[Live Feed Of Patna Sahib Gurudwara 24x7, Live Feed Of Patna Sahib Gurudwara 24x7, Live Feed Of Patna Sahib Gurudwara 24x7, Live Feed Of Patna Sahib Gurudwara 24x7]
+10-07 13:29:27.606  1624  3421 D EPG_SCREEN: prefetch channels-[Airtel Divya Darshan 42, Airtel Divya Darshan 43, Airtel Divya Darshan 44, Airtel Divya Darshan 45, Airtel Divya Darshan 46, Airtel Divya Darshan 47]
+10-07 13:29:27.606  1624  3421 D EPG_SCREEN: prefetch channel-Airtel Info Home
+10-07 13:29:27.628   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 109, expected nextSeqNum = 109
+10-07 13:29:27.629   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 109,should SeqNum=109, status = 0
+10-07 13:29:27.708  1624  3421 D EPG_SCREEN: prefetch programs-[Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu, Airtel Masterbrand Telugu]
+10-07 13:29:27.708  1624  3421 D EPG_SCREEN: prefetch channels-[Airtel Divya Darshan 42, Airtel Divya Darshan 43, Airtel Divya Darshan 44, Airtel Divya Darshan 45, Airtel Divya Darshan 46, Airtel Divya Darshan 47, Airtel Info Home]
+10-07 13:29:27.930     0     0 I [0 T228   ..] logd: logdr: UID=2000 GID=2000 PID=4681 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+--------- beginning of main
+10-07 13:29:28.628   424  1432 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 110, expected nextSeqNum = 110
+10-07 13:29:28.630   424  1274 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 110,should SeqNum=110, status = 0
+10-07 13:29:28.904  1624  1658 I com.airtel.tv: Background young concurrent copying GC freed 93406(3209KB) AllocSpace objects, 9(1212KB) LOS objects, 5% free, 50MB/53MB, paused 545us,534us total 154.603ms
+10-07 13:29:28.969  4172  4293 I Finsky:background: [41] kbi.run(194): Stats for Executor: bgExecutor kpb@2809069[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1]

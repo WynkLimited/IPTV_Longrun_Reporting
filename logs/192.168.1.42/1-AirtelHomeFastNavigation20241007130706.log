@@ -1,0 +1,1086 @@
+--------- beginning of main
+10-07 13:07:06.194   708   931 I serviceDiscovery: [MdnsAdvertiser] Found conflict, restarted probing for service 2
+--------- beginning of system
+10-07 13:07:06.213   708  2078 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.airtel.tv/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 result code=-92
+10-07 13:07:06.263  4873  4873 D MonkeyStub: translateCommand: press KEYCODE_HOME
+10-07 13:07:06.285   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:06.288   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:06.293   708   816 D HdmiControlService: Process pid: 708 is calling oneTouchPlay.
+10-07 13:07:06.293   708   708 D HDMI    : oneTouchPlay com.android.server.hdmi.OneTouchPlayAction@9cdda00
+10-07 13:07:06.294   708   708 I OneTouchPlayAction: Start action.
+10-07 13:07:06.294   708   708 D HDMI    : setActiveSource logical:0x04 physical:0x1000 OneTouchPlayAction#broadcastActiveSource()
+10-07 13:07:06.294   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:06.295   445   445 D hdmicecd: [HdmiCecControl]:getPhysicalAddress, physical addr: 1000, last pa: 1000, ret = 0
+10-07 13:07:06.295   445   445 D hdmicecd: [HdmiCecControl]:getPhysicalAddress, physical addr: 1000, last pa: 1000, ret = 0
+10-07 13:07:06.296   708   708 D HDMI    : ActiveSourceHistoryRecord active source=(0x04, 0x1000) isActiveSource=true from=OneTouchPlayAction#broadcastActiveSource()
+10-07 13:07:06.296   708   708 D HDMI    : setActiveSource logical:0x04 physical:0x1000 ActiveSourceAction
+10-07 13:07:06.297   445   445 D hdmicecd: [HdmiCecControl]:getPhysicalAddress, physical addr: 1000, last pa: 1000, ret = 0
+10-07 13:07:06.298   445   445 D hdmicecd: [HdmiCecControl]:getPhysicalAddress, physical addr: 1000, last pa: 1000, ret = 0
+10-07 13:07:06.299   708   708 D HDMI    : ActiveSourceHistoryRecord active source=(0x04, 0x1000) isActiveSource=true from=ActiveSourceAction
+10-07 13:07:06.300   708   708 D HdmiControlService: Switching to full volume behavior
+10-07 13:07:06.301   708   708 D HdmiControlService: Switching to full volume behavior
+10-07 13:07:06.329   993  1042 D WindowManagerShell: TvPipMenuController: closeMenu()
+10-07 13:07:06.330   993  1042 D WindowManagerShell: TvPipMenuController: switchToMenuMode: from=MODE_NO_MENU, to=MODE_NO_MENU
+10-07 13:07:06.343   993   993 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-07 13:07:06.351   708   816 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-07 13:07:06.351   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+--------- beginning of main
+10-07 13:07:06.680  1592  1592 D OmniRemote.OTA_JNI: open file name:/data/user/0/com.airtel.tv/files/ota/Airtel-TL135-20240919-006-OTA.bin
+10-07 13:07:06.680  1592  1592 D OmniRemote.OTA_JNI: 35,51,0,6
+10-07 13:07:06.681  1592  1592 D OmniRemote.OmniBle: add services filter
+10-07 13:07:06.681  1592  1592 D OmniRemote.OmniBle: insert image ids
+10-07 13:07:06.689  1592  1592 D OmniRemote.OmniBle: device list size:0
+10-07 13:07:06.689  1592  1592 E OmniRemote.OmniBle: report device not found
+10-07 13:07:06.690  1592  1592 D MainFragment::onResume: 
+10-07 13:07:06.705  1592  1592 D ANALYTICS_IPTV: AnalyticsEventTracker ***Event***Event{ts=1728286626695, meta={"page_id":"dthNewHome","box_type":"iptv","source_of_stream":"1 | Home.screen_visible.none.none.none.none.none.none.none","app_version":"1.0.0024:242","box_model":"bx:1.2.3","firmware":"fw:1.2.3","source_name":"Home"}, uid=5ye_gfsYCZe-PoQ4A0, did=8fb17cc052aef526, os=Android, ov=34, bn=242, nq=-1, nt=2, nct=0, lc=en|hi, av=1.0.0024, dt=STB, type=screen_visible, adid=95acddf7-5a94-4681-bf0a-0a767be9f2c3, brand=Airtel-Xstream, model=XstreamIPTV1-VT, dname=Vantiva XstreamIPTV1-VT, appId=IPTV, sId=8fb17cc052aef526, profileId=, ab_test=86079:0|108429:0|42374:0|78244:0|95458:0|75817:0|60412:1|117812:1|120676:1|113632:1|116206:0|66480:0|100390:2|76965:1|110385:0|129832:2, city=New Delhi, state=National Capital Territory of Delhi, country=India, firebase_id=687ecd54b0fd95386e529fbf62179576} Critical: false
+10-07 13:07:06.707   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 2, body: 8e 00, result:no ack
+--------- beginning of system
+10-07 13:07:06.715   993  1042 D WindowManagerShell: TvPipController: onTaskStackChanged()
+10-07 13:07:06.715  1127  4903 I NetflixService: onTaskStackChanged
+10-07 13:07:06.717  1592  1592 D ANALYTICS_IPTV: AnalyticsEventTracker ***Event***Event{ts=1728286626712, meta={"box_type":"iptv","source_of_stream":"1 | Home.screen_visible.none.none.none.none.none.none.none | none.screen_visible.none.none.none.none.none.none.none","app_version":"1.0.0024:242","box_model":"bx:1.2.3","source":"Home","firmware":"fw:1.2.3"}, uid=5ye_gfsYCZe-PoQ4A0, did=8fb17cc052aef526, os=Android, ov=34, bn=242, nq=-1, nt=2, nct=0, lc=en|hi, av=1.0.0024, dt=STB, type=screen_visible, adid=95acddf7-5a94-4681-bf0a-0a767be9f2c3, brand=Airtel-Xstream, model=XstreamIPTV1-VT, dname=Vantiva XstreamIPTV1-VT, appId=IPTV, sId=8fb17cc052aef526, profileId=, ab_test=86079:0|108429:0|42374:0|78244:0|95458:0|75817:0|60412:1|117812:1|120676:1|113632:1|116206:0|66480:0|100390:2|76965:1|110385:0|129832:2, city=New Delhi, state=National Capital Territory of Delhi, country=India, firebase_id=687ecd54b0fd95386e529fbf62179576} Critical: false
+10-07 13:07:06.763   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 2, body: 8e 00, result:no ack
+10-07 13:07:06.763   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:06.770   708  2078 I ImeTracker: com.airtel.tv:22762946: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR
+10-07 13:07:06.771   708  2078 I ImeTracker: com.airtel.tv:22762946: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-07 13:07:06.774  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3184 
+10-07 13:07:06.776  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2246 repeatCheckTimes = 0, locked = false
+10-07 13:07:06.776  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1982 onStartInput(EditorInfo{EditorInfo{packageName=com.airtel.tv, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-07 13:07:06.777  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2246 repeatCheckTimes = 1, locked = false
+10-07 13:07:06.777  1465  1465 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():342 EmojiCompat.init() was never called.
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at so.g(PG:3)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at abd.a(PG:6)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at edb.d(PG:1)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at edb.b(PG:6)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at com.android.inputmethod.latin.LatinIME.f(PG:286)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at epp.onStartInput(PG:170)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3115)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:824)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:853)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:197)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:294)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+10-07 13:07:06.778  1465  1465 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+10-07 13:07:06.781  1592  1592 D OmniRemote.OmniOTAImpl: device not found
+10-07 13:07:06.781  1592  1592 D OTAWorker onResult = 258: 
+10-07 13:07:06.782  1592  1592 D OTAWorker remote device not found: 
+10-07 13:07:06.782  1592  1592 D OTAWorker: MainActivity OTAWorker event received tv.airtel.xstream.util.RxEvent$RCUOtaEvents$DeviceNotFound@1ab8522
+10-07 13:07:06.806  1793  4916 D AdvertisingIdClient: AdvertisingIdClient already created.
+10-07 13:07:06.806  1793  4916 D AdvertisingIdClient: AdvertisingIdClient is not bounded. Starting to bind it...
+10-07 13:07:06.814   708   977 D AudioService: Volume controller visible: false
+10-07 13:07:06.815  1793  4916 D AdvertisingIdClient: AdvertisingIdClient is bounded
+10-07 13:07:06.821   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 2, body: 8e 00, result:no ack
+10-07 13:07:06.823   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:06.823  1793  4916 I AdvertisingIdClient: shouldSendLog 45343
+10-07 13:07:06.823  1793  4916 I AdvertisingIdClient: GetInfoInternal elapse 17ms
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: Error inserting flex_time=3448000 job_id=-1 period=6898000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=243834000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1728286626855 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0 [CONTEXT service_id=218 ]
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:961)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1870)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1765)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at bgzc.d(:com.google.android.gms@243834110@24.38.34 (180306-681941525):729)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at bgwo.n(:com.google.android.gms@243834110@24.38.34 (180306-681941525):29)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at bgwo.u(:com.google.android.gms@243834110@24.38.34 (180306-681941525):360)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at bgwo.h(:com.google.android.gms@243834110@24.38.34 (180306-681941525):51)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at bgrf.run(:com.google.android.gms@243834110@24.38.34 (180306-681941525):72)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at zpa.c(:com.google.android.gms@243834110@24.38.34 (180306-681941525):50)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at zpa.run(:com.google.android.gms@243834110@24.38.34 (180306-681941525):76)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at zuh.run(:com.google.android.gms@243834110@24.38.34 (180306-681941525):8)
+10-07 13:07:06.874  1397  2768 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:1012)
+10-07 13:07:06.877   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 2, body: 8e 00, result:no ack
+10-07 13:07:06.877   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 114 ms
+10-07 13:07:06.878   708   959 E HDMI    : [1]:Failed to send <Menu Status> 40:8E:00 with errorCode=1
+10-07 13:07:06.878   708   959 D HDMI    : [S]:<System Audio Mode Request> 45:70:10:00
+10-07 13:07:06.889   708   977 D ConnectivityService: requestNetwork for uid/pid:10043/1592 activeRequest: null callbackRequest: 152 [NetworkRequest [ REQUEST id=153, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-07 13:07:06.896   708   928 D ConnectivityService: NetReassign [153 : null → 100] [c 0] [a 2] [i 3]
+10-07 13:07:06.896   708   920 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=153, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:06.897   708   920 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=153, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:06.897   708   920 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=153, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:06.897   708   920 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=153, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:06.935   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 5] len: 3, body: 70 10 00, result:no ack
+10-07 13:07:06.991   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 5] len: 3, body: 70 10 00, result:no ack
+10-07 13:07:06.992   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:07.036  1592  2071 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=4cc439e1-9c40-46ab-b226-1075999055de, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:07.047   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 5] len: 3, body: 70 10 00, result:no ack
+10-07 13:07:07.090  1592  2071 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=54ac4c88-095b-40e9-b421-3781f32e88ad, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:07.107   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 5] len: 3, body: 70 10 00, result:no ack
+10-07 13:07:07.107   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 116 ms
+10-07 13:07:07.108   708   959 E HDMI    : [1]:Failed to send <System Audio Mode Request> 45:70:10:00 with errorCode=1
+10-07 13:07:07.108   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+--------- beginning of kernel
+10-07 13:07:07.172     0     0 W [1 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:07.172     0     0 W [1 T1187  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:07:07.163   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:07.167  1127  1127 D NetflixService: handleMessage
+10-07 13:07:07.169  1127  1127 D NetflixService: com.airtel.tv is visible.
+10-07 13:07:07.169  1127  1127 D NetflixService: com.netflix.ninja is not top activity.
+10-07 13:07:07.174  1127  1127 D NetflixService: com.netflix.ninjais not top activity.
+10-07 13:07:07.174  1127  1127 I NetflixService: fg: false  mIsNetflixFg: false
+10-07 13:07:07.175  1127  1127 D NetflixService: com.airtel.tv is visible.
+10-07 13:07:07.175  1127  1127 D NetflixService: com.google.android.youtube.tv is not top activity.
+10-07 13:07:07.223   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:07.223   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 115 ms
+10-07 13:07:07.236   708  2078 D ConnectivityService: requestNetwork for uid/pid:10043/1592 activeRequest: null callbackRequest: 154 [NetworkRequest [ REQUEST id=155, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-07 13:07:07.238   708   920 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=155, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:07.239   708   920 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=155, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:07.240   708   920 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=155, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:07.241   708   920 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=155, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:07.241   708   928 D ConnectivityService: NetReassign [155 : null → 100] [c 0] [a 1] [i 3]
+10-07 13:07:07.242  1592  3035 D TrafficStats: tagSocket(124) with statsTag=0xffffffff, statsUid=-1
+10-07 13:07:07.279   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:07.339   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:07.339   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 116 ms
+10-07 13:07:07.340   708   959 E HDMI    : [1]:Failed to send <Give Device Power Status> 40:8F with errorCode=1
+10-07 13:07:07.340   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:07.342  1592  2071 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=388cdcab-356b-462f-af6e-2ac3e0fdcf4a, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:07.395   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:07.415  1127  1127 D NetflixService: handleMessage
+10-07 13:07:07.417  1127  1127 D NetflixService: com.airtel.tv is visible.
+10-07 13:07:07.417  1127  1127 D NetflixService: com.netflix.ninja is not top activity.
+10-07 13:07:07.420  1127  1127 D NetflixService: com.netflix.ninjais not top activity.
+10-07 13:07:07.420  1127  1127 I NetflixService: fg: false  mIsNetflixFg: false
+10-07 13:07:07.422  1127  1127 D NetflixService: com.airtel.tv is visible.
+10-07 13:07:07.422  1127  1127 D NetflixService: com.google.android.youtube.tv is not top activity.
+10-07 13:07:07.444   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 219, expected nextSeqNum = 219
+10-07 13:07:07.446   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 219,should SeqNum=219, status = 0
+10-07 13:07:07.451   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:07.451   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:07.455  1592  2071 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=036d9b2d-de11-43ba-947d-d2ea5e2e168b, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:07.507   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:07.567   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:07.567   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 116 ms
+10-07 13:07:07.613  1592  3029 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=7d70ded9-eebe-4558-835f-d67331350b72, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:07.739  1592  3029 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=4a55a912-32e5-49a6-b69f-85791e03671f, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:07.791  1127  1127 I ThermalService: CPU temperatures: [43.9]
+10-07 13:07:07.868   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:07.868   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:07.897  1592  3029 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=9eefb326-5281-4e43-b62f-cd864e5af33e, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:07.923   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:07.979   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:07.979   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:08.035   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:08.091   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:08.092   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:08.301   708   708 D HDMI    : one touch play retry:1
+10-07 13:07:08.301   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:08.355   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:08.411   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:08.412   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:08.445   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 220, expected nextSeqNum = 220
+10-07 13:07:08.446   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 220,should SeqNum=220, status = 0
+10-07 13:07:08.467   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:08.523   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:08.524   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:08.524   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:08.524   708   708 D ResendCecCommandAction: ResendCecCommandAction started
+10-07 13:07:08.583   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:08.639   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:08.639   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 115 ms
+10-07 13:07:08.695   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:08.751   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:08.752   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:08.824   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:08.825   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:08.879   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:08.935   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:08.936   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:08.991   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:09.047   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:09.047   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:09.349   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:09.350   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:09.403   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:09.445   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 221, expected nextSeqNum = 221
+10-07 13:07:09.446   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 221,should SeqNum=221, status = 0
+10-07 13:07:09.463   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:09.463   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 114 ms
+10-07 13:07:09.519   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:09.575   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:09.576   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:09.631   708  1566 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-07 13:07:09.795  1127  1127 I ThermalService: CPU temperatures: [41.800003]
+10-07 13:07:10.176     0     0 W [3 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:10.176     0     0 W [3 T1187  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:07:10.301   708   708 D HDMI    : one touch play retry:2
+10-07 13:07:10.302   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:10.359   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:10.415   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:10.416   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:10.445   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 222, expected nextSeqNum = 222
+10-07 13:07:10.446   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 222,should SeqNum=222, status = 0
+10-07 13:07:10.471   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:10.527   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:10.528   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:10.528   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:10.528   708   708 D ResendCecCommandAction: ResendCecCommandAction started
+10-07 13:07:10.583   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:10.639   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:10.640   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:10.695   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:10.751   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:10.752   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:10.829   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:10.829   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:10.883   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:10.943   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:10.943   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 114 ms
+10-07 13:07:10.999   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:11.055   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:11.056   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:11.217   708   931 I serviceDiscovery: [MdnsAdvertiser] Found conflict, restarted probing for service 2
+10-07 13:07:11.357   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:11.358   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:11.415   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:11.445   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 223, expected nextSeqNum = 223
+10-07 13:07:11.446   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 223,should SeqNum=223, status = 0
+10-07 13:07:11.471   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:11.472   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:11.527   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:11.567   427   590 I audio_hw_hal_alsamgr: alsa format =0x9000000 delay frames =1408 total frames=10752000
+10-07 13:07:11.583   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:11.583   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:11.797  1127  1127 I ThermalService: CPU temperatures: [41.500004]
+10-07 13:07:11.962   427   590 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=11520000
+10-07 13:07:12.192   599   599 W adbd    : timeout expired while flushing socket, closing
+10-07 13:07:12.302   708   708 D HDMI    : one touch play retry:3
+10-07 13:07:12.303   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:12.363   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:12.419   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:12.420   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 115 ms
+10-07 13:07:12.445   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 224, expected nextSeqNum = 224
+10-07 13:07:12.446   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 224,should SeqNum=224, status = 0
+10-07 13:07:12.475   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:12.531   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:12.531   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:12.532   708   708 D ResendCecCommandAction: ResendCecCommandAction started
+10-07 13:07:12.533   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:12.587   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:12.643   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:12.644   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:12.699   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:12.755   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:12.755   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:12.833   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:12.834   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:12.887   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:12.943   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:12.943   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:12.999   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:13.055   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:13.055   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:13.182     0     0 W [1 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:13.183     0     0 W [1 T1187  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:07:13.356   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:13.356   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:13.411   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:13.446   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 225, expected nextSeqNum = 225
+10-07 13:07:13.447   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 225,should SeqNum=225, status = 0
+10-07 13:07:13.467   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:13.467   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:13.523   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:13.579   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:13.580   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:13.801  1127  1127 I ThermalService: CPU temperatures: [41.500004]
+10-07 13:07:14.303   708   708 D HDMI    : one touch play retry:4
+10-07 13:07:14.304   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:14.359   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:14.415   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:14.416   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:14.446   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 226, expected nextSeqNum = 226
+10-07 13:07:14.447   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 226,should SeqNum=226, status = 0
+10-07 13:07:14.471   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:14.527   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:14.528   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:14.529   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:14.529   708   708 D ResendCecCommandAction: ResendCecCommandAction started
+10-07 13:07:14.583   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:14.639   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:14.640   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:14.695   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:14.755   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:14.756   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 116 ms
+10-07 13:07:14.828   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:14.829   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:14.883   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:14.939   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:14.939   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:14.995   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:15.051   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:15.052   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:15.353   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:15.353   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:15.411   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:15.446   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 227, expected nextSeqNum = 227
+10-07 13:07:15.447   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 227,should SeqNum=227, status = 0
+10-07 13:07:15.467   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:15.468   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:15.524   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:15.579   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:15.580   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:15.804  1127  1127 I ThermalService: CPU temperatures: [41.4]
+10-07 13:07:16.188     0     0 W [1 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:16.188     0     0 W [1 T1187  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:07:16.304   708   708 D HDMI    : one touch play retry:5
+10-07 13:07:16.305   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:16.359   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:16.415   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:16.415   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:16.435   708   875 D ActivityManager: freezing 1648 com.google.process.gservices
+10-07 13:07:16.437   708   875 D ActivityManager: freezing 2188 com.android.providers.tv
+10-07 13:07:16.438   708   875 D ActivityManager: freezing 2481 com.google.process.gapps
+10-07 13:07:16.439   708   875 D ActivityManager: freezing 4552 android.process.acore
+10-07 13:07:16.440   708   875 D ActivityManager: freezing 3390 com.android.providers.calendar
+10-07 13:07:16.446   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 228, expected nextSeqNum = 228
+10-07 13:07:16.447   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 228,should SeqNum=228, status = 0
+10-07 13:07:16.471   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:16.531   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:16.531   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 116 ms
+10-07 13:07:16.532   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:16.532   708   708 D ResendCecCommandAction: ResendCecCommandAction started
+10-07 13:07:16.591   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:16.651   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:16.651   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 119 ms
+10-07 13:07:16.707   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:16.725  4873  4873 D MonkeyStub: translateCommand: press DPAD_CENTER
+10-07 13:07:16.727   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:16.731   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:16.748  1592  4910 D ANALYTICS_IPTV: AnalyticsEventTracker ***Event***Event{ts=1728286636743, meta={"box_type":"iptv","source_of_stream":"1 | Home.screen_visible.none.none.none.none.none.none.none | none.screen_visible.none.none.none.none.none.none.none | TV_Channels.click.tab_click.none.none.1.tv_channels.none.none","asset_name":"tv_channels","asset_position":"1","app_version":"1.0.0024:242","box_model":"bx:1.2.3","action":"tab_click","firmware":"fw:1.2.3","source_name":"TV_Channels"}, uid=5ye_gfsYCZe-PoQ4A0, did=8fb17cc052aef526, os=Android, ov=34, bn=242, nq=-1, nt=2, nct=0, lc=en|hi, av=1.0.0024, dt=STB, type=click, adid=95acddf7-5a94-4681-bf0a-0a767be9f2c3, brand=Airtel-Xstream, model=XstreamIPTV1-VT, dname=Vantiva XstreamIPTV1-VT, appId=IPTV, sId=8fb17cc052aef526, profileId=, ab_test=86079:0|108429:0|42374:0|78244:0|95458:0|75817:0|60412:1|117812:1|120676:1|113632:1|116206:0|66480:0|100390:2|76965:1|110385:0|129832:2, city=New Delhi, state=National Capital Territory of Delhi, country=India, firebase_id=687ecd54b0fd95386e529fbf62179576} Critical: false
+10-07 13:07:16.763   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:16.769   427   682 I audio_hw_hal_primary: [register_audio_patch:7826] Patch 3:id:3 mix(io:13)->dev_0[OUT_HDMI(id:18)] found, register the same patch, do nothing.
+10-07 13:07:16.769   427   682 I audio_hw_hal_primary: [adev_create_audio_patch:7927] Patch 3: MIX->DEVICE, num_src:1 num_sink:1 patch_src:INVAL
+10-07 13:07:16.769   427   682 I audio_hw_hal_primary: [adev_create_audio_patch:7931] sink[0]: OUT_HDMI(id:18)
+10-07 13:07:16.769   427   682 I audio_hw_hal_primary: [adev_create_audio_patch:7988] Patch 3: mix(io:13) -> dev[OUT_HDMI(id:18)]
+10-07 13:07:16.769   427   682 I audio_hw_hal_primary: [adev_create_audio_patch:8056] dev=0xe4682930 cur_out_device=0x400
+10-07 13:07:16.770  1127  1365 D UEventObserver: change@/devices/platform/auge_sound/sound/card0/controlC0��ACTION=change��DEVPATH=/devices/platform/auge_sound/sound/card0/controlC0��SUBSYSTEM=sound��AUDIO_FORMAT=0��MAJOR=116��MINOR=11��DEVNAME=snd/controlC0��SEQNUM=3130��
+10-07 13:07:16.770  1127  1365 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1220 android.content.ContextWrapper.sendBroadcast:504 com.droidlogic.audioservice.services.AudioSystemCmdService$1.onUEvent:177 com.droidlogic.UEventObserver$UEventThread.sendEvent:213 com.droidlogic.UEventObserver$UEventThread.run:190 
+10-07 13:07:16.771   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 119 ms
+10-07 13:07:16.777   481   481 D audioserver: FGS Logger Transaction failed
+10-07 13:07:16.777   481   481 D audioserver: -129
+10-07 13:07:16.784   427  4838 I audio_hw_hal_primary: [mixer_aux_buffer_write:6665] io 13: out:0xe43040c0 usecase:PCM_NORMAL standby to unstandby
+10-07 13:07:16.784   427  4838 E audio_hw_hal_virtualbuf: ms12 system input underrun happens read=20268835885 write=3199999950 diff=17068835935
+10-07 13:07:16.791  1127  1356 I AudioSystemCmdService: onAudioPatchListUpdate
+10-07 13:07:16.795  1127  1356 I AudioSystemCmdService: mAudioSink:[{{mHandle: 18, mRole: SINK}, mType: hdmi, mAddress: }], previousSink:[{{mHandle: 18, mRole: SINK}, mType: hdmi, mAddress: }]
+10-07 13:07:16.795  1127  1356 I AudioSystemCmdService: updateAudioPatch cur sink does not change.
+10-07 13:07:16.806   427  4838 I audio_hw_hal_stream: aml_stream_out_info_print: out:0xe43040c0, stream_type:pcm, sync_mode:non tunnel, input_size:4063232 bytes
+10-07 13:07:16.806   427  4838 I audio_hw_hal_stream: aml_stream_out_info_print: last_time:240757 ms (sec:240, nsec:757090905), last_position:20977 ms (1006928), cur_time:257979 ms (sec:257, nsec:979088413), cur_position:21084 ms (1012048)
+10-07 13:07:16.806   427  4838 I audio_hw_hal_stream: aml_stream_out_info_print: time_gap:17222 ms (thr:100 ms), position_gap:106 ms, delay:78 ms, jitter: Position gap is behind system time gap by 17116 ms (thr:100 ms)
+10-07 13:07:16.846     0     0 I [1 T232   ..] logd: logdr: UID=2000 GID=2000 PID=4925 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+--------- beginning of main
+10-07 13:07:16.948   427  4838 I audio_hw_hal_primary: [audiohal_get_latency:1258] io 13: out:0xe43040c0 frames:3072 rate:48000 whole_latency:64 alsa_latency:64
+10-07 13:07:16.951  1592  1592 D ANALYTICS_IPTV: AnalyticsEventTracker ***Event***Event{ts=1728286636946, meta={"box_type":"iptv","source_of_stream":"2 | TV Channels.screen_visible.none.none.none.none.none.none.none","app_version":"1.0.0024:242","box_model":"bx:1.2.3","firmware":"fw:1.2.3","source_name":"TV Channels"}, uid=5ye_gfsYCZe-PoQ4A0, did=8fb17cc052aef526, os=Android, ov=34, bn=242, nq=-1, nt=2, nct=0, lc=en|hi, av=1.0.0024, dt=STB, type=screen_visible, adid=95acddf7-5a94-4681-bf0a-0a767be9f2c3, brand=Airtel-Xstream, model=XstreamIPTV1-VT, dname=Vantiva XstreamIPTV1-VT, appId=IPTV, sId=8fb17cc052aef526, profileId=, ab_test=86079:0|108429:0|42374:0|78244:0|95458:0|75817:0|60412:1|117812:1|120676:1|113632:1|116206:0|66480:0|100390:2|76965:1|110385:0|129832:2, city=New Delhi, state=National Capital Territory of Delhi, country=India, firebase_id=687ecd54b0fd95386e529fbf62179576} Critical: false
+10-07 13:07:16.963  1592  1592 E ThemeUtils: View class androidx.appcompat.widget.AppCompatImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+10-07 13:07:16.966   427  4838 I audio_hw_hal_primary: [audiohal_get_latency:1258] io 13: out:0xe43040c0 frames:3072 rate:48000 whole_latency:64 alsa_latency:64
+10-07 13:07:16.974   708   931 I serviceDiscovery: [MdnsAdvertiser.wlan0] Probing finished for service 2
+10-07 13:07:16.988   427  4838 I audio_hw_hal_primary: [audiohal_get_latency:1258] io 13: out:0xe43040c0 frames:3072 rate:48000 whole_latency:64 alsa_latency:64
+10-07 13:07:16.989   481   658 D audioserver: FGS Logger Transaction failed
+10-07 13:07:16.989   481   658 D audioserver: -129
+10-07 13:07:17.000   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:17.010   708  2078 D ConnectivityService: requestNetwork for uid/pid:10043/1592 activeRequest: null callbackRequest: 156 [NetworkRequest [ REQUEST id=157, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-07 13:07:17.012   708   920 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=157, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:17.012   708   920 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=157, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:17.013   708   920 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=157, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:17.014   708   928 D ConnectivityService: NetReassign [157 : null → 100] [c 0] [a 1] [i 2]
+10-07 13:07:17.014   708   920 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=157, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:17.030  1221  2139 I AtvRemote.DiscoveryService: NDS Service registered: XstreamIPTV1-VT (7)
+10-07 13:07:17.056   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:17.056   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:17.124  1592  1592 D ANALYTICS_IPTV: AnalyticsEventTracker ***Event***Event{ts=1728286637119, meta={"page_id":"dthNewTvChannels","box_type":"iptv","source_of_stream":"2 | TV Channels.screen_visible.none.none.none.none.none.none.none | TV Channels.screen_visible.none.none.none.none.none.none.none","app_version":"1.0.0024:242","box_model":"bx:1.2.3","firmware":"fw:1.2.3","source_name":"TV Channels"}, uid=5ye_gfsYCZe-PoQ4A0, did=8fb17cc052aef526, os=Android, ov=34, bn=242, nq=-1, nt=2, nct=0, lc=en|hi, av=1.0.0024, dt=STB, type=screen_visible, adid=95acddf7-5a94-4681-bf0a-0a767be9f2c3, brand=Airtel-Xstream, model=XstreamIPTV1-VT, dname=Vantiva XstreamIPTV1-VT, appId=IPTV, sId=8fb17cc052aef526, profileId=, ab_test=86079:0|108429:0|42374:0|78244:0|95458:0|75817:0|60412:1|117812:1|120676:1|113632:1|116206:0|66480:0|100390:2|76965:1|110385:0|129832:2, city=New Delhi, state=National Capital Territory of Delhi, country=India, firebase_id=687ecd54b0fd95386e529fbf62179576} Critical: false
+10-07 13:07:17.137  1592  1592 D ANALYTICS_IPTV: AnalyticsEventTracker ***Event***Event{ts=1728286637130, meta={"box_type":"iptv","source_of_stream":"2 | TV Channels.screen_visible.none.none.none.none.none.none.none | TV Channels.screen_visible.none.none.none.none.none.none.none | none.screen_visible.none.none.none.none.none.none.none","app_version":"1.0.0024:242","box_model":"bx:1.2.3","source":"TV Channels","firmware":"fw:1.2.3"}, uid=5ye_gfsYCZe-PoQ4A0, did=8fb17cc052aef526, os=Android, ov=34, bn=242, nq=-1, nt=2, nct=0, lc=en|hi, av=1.0.0024, dt=STB, type=screen_visible, adid=95acddf7-5a94-4681-bf0a-0a767be9f2c3, brand=Airtel-Xstream, model=XstreamIPTV1-VT, dname=Vantiva XstreamIPTV1-VT, appId=IPTV, sId=8fb17cc052aef526, profileId=, ab_test=86079:0|108429:0|42374:0|78244:0|95458:0|75817:0|60412:1|117812:1|120676:1|113632:1|116206:0|66480:0|100390:2|76965:1|110385:0|129832:2, city=New Delhi, state=National Capital Territory of Delhi, country=India, firebase_id=687ecd54b0fd95386e529fbf62179576} Critical: false
+10-07 13:07:17.219  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3184 
+--------- beginning of system
+10-07 13:07:17.223   708  2052 D OomAdjuster: Not killing cached processes
+10-07 13:07:17.223   708  2052 W ProcessStats: Tracking association SourceState{9047732 com.google.android.gms/10073 BTop #1954} whose proc state 2 is better than process ProcessState{8825170 com.google.android.gms.persistent/10073 pkg=com.google.android.gms} proc state 4 (140 skipped)
+10-07 13:07:17.224  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2246 repeatCheckTimes = 0, locked = false
+10-07 13:07:17.224  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1982 onStartInput(EditorInfo{EditorInfo{packageName=com.airtel.tv, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-07 13:07:17.226  1793  1793 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-07 13:07:17.226  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2246 repeatCheckTimes = 1, locked = false
+10-07 13:07:17.226  1465  1465 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():342 EmojiCompat.init() was never called.
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at so.g(PG:3)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at abd.a(PG:6)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at edb.d(PG:1)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at edb.b(PG:6)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at com.android.inputmethod.latin.LatinIME.f(PG:286)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at epp.onStartInput(PG:170)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3115)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:824)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:853)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:197)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:294)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+10-07 13:07:17.227  1465  1465 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+10-07 13:07:17.251   708  4269 D ConnectivityService: requestNetwork for uid/pid:10043/1592 activeRequest: null callbackRequest: 158 [NetworkRequest [ REQUEST id=159, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-07 13:07:17.253   708   920 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=159, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:17.253   708   920 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=159, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:17.254   708   920 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=159, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:17.254   708   920 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=159, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:17.254   708   928 D ConnectivityService: NetReassign [159 : null → 100] [c 0] [a 1] [i 1]
+10-07 13:07:17.296   427   590 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=11776000
+10-07 13:07:17.358   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:17.358   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:17.415   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:17.446   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 229, expected nextSeqNum = 229
+10-07 13:07:17.448   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 229,should SeqNum=229, status = 0
+10-07 13:07:17.471   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:17.471   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:17.527   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:17.567  1592  1650 I com.airtel.tv: Background young concurrent copying GC freed 141403(6020KB) AllocSpace objects, 16(1864KB) LOS objects, 26% free, 20MB/27MB, paused 349us,248us total 145.700ms
+10-07 13:07:17.584   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:17.584   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:17.763  1592  2071 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=ab3ba12b-d641-4a90-b076-4480b50fe8e0, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:17.808  1127  1127 I ThermalService: CPU temperatures: [45.100002]
+10-07 13:07:17.815   708  2078 W JobScheduler: Job didn't exist in JobStore: 4296d9f #u0a43/7124 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+10-07 13:07:17.967  4873  4873 D MonkeyStub: translateCommand: press DPAD_DOWN
+10-07 13:07:17.972   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:17.973  1592  2973 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=508eb749-0a4e-4b3d-bae3-fe9aabc6c758, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:17.974   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:18.051   708  2052 W JobScheduler: Job didn't exist in JobStore: 85d6dd8 #u0a43/7125 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+--------- beginning of system
+10-07 13:07:18.257   708  2052 W JobScheduler: Job didn't exist in JobStore: 357197 #u0a43/7126 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+--------- beginning of main
+10-07 13:07:18.305   708   708 W WindowManager: One touch play failed: 1
+10-07 13:07:18.411  1592  2071 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=193c8798-e7c4-4143-964a-cc6b1bfdad95, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:18.447   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 230, expected nextSeqNum = 230
+10-07 13:07:18.448   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 230,should SeqNum=230, status = 0
+10-07 13:07:18.458   708  2052 W JobScheduler: Job didn't exist in JobStore: 2f35ba2 #u0a43/7127 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+10-07 13:07:18.727  1592  2071 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=39938260-518d-442b-bdf4-bf1a44b801e7, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:18.773   708  2052 W JobScheduler: Job didn't exist in JobStore: 278e969 #u0a43/7128 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+10-07 13:07:18.894   708  2052 W JobScheduler: Job didn't exist in JobStore: a2f4b1c #u0a43/7129 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+10-07 13:07:18.926   708  2052 W JobScheduler: Job didn't exist in JobStore: 7bfee87 #u0a43/7131 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+10-07 13:07:18.947   708  2052 W JobScheduler: Job didn't exist in JobStore: 473fd08 #u0a43/7130 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+--------- beginning of kernel
+10-07 13:07:19.192     0     0 W [0 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:19.192     0     0 W [0 T1187  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:07:19.272  4873  4873 D MonkeyStub: translateCommand: press DPAD_DOWN
+10-07 13:07:19.275   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:19.279  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:19.280  1592  1592 D focus content direction 130: 
+10-07 13:07:19.280  1592  1592 D focus content view null: 
+10-07 13:07:19.280   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:19.280  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:19.280  1592  1592 D focus direction 130: 
+10-07 13:07:19.280  1592  1592 D focus Next view null: 
+10-07 13:07:19.280  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:19.280  1592  1592 D focus next view parent null: 
+10-07 13:07:19.281  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+--------- beginning of main
+10-07 13:07:19.447   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 231, expected nextSeqNum = 231
+10-07 13:07:19.448   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 231,should SeqNum=231, status = 0
+10-07 13:07:19.812  1127  1127 I ThermalService: CPU temperatures: [43.300003]
+10-07 13:07:19.858   427   682 D audio_hw_hal_primary: [out_standby_new:5414] io 13: out:0xe43040c0 usecase:PCM_NORMAL
+10-07 13:07:19.858   427   682 I audio_hw_hal_primary: [do_output_standby_l:5310] io 13: out:0xe43040c0, stream usecase:PCM_NORMAL, continuous:1
+10-07 13:07:19.858   427   682 I audio_hw_hal_primary: [usecase_change_validate_l:7065] ++ io 13: out:0xe43040c0 dev masks:0x1 is_standby:1 out usecase:PCM_NORMAL
+10-07 13:07:19.858   427   682 I audio_hw_hal_primary: [usecase_change_validate_l:7102] -- dev masks:0 is_standby:1 out usecase PCM_NORMAL
+10-07 13:07:19.859   427   682 D audio_hw_hal_primary: [out_standby_new:5437] io 13: out:0xe43040c0 usecase:PCM_NORMAL exit
+10-07 13:07:19.945   427   590 D libdolbyms12: continuous underrun 2
+10-07 13:07:20.447   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 232, expected nextSeqNum = 232
+10-07 13:07:20.448   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 232,should SeqNum=232, status = 0
+10-07 13:07:20.474  4873  4873 D MonkeyStub: translateCommand: press DPAD_RIGHT
+10-07 13:07:20.477   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:20.480   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:20.480  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:20.481  1592  1592 D focus content direction 66: 
+10-07 13:07:20.481  1592  1592 D focus content view null: 
+10-07 13:07:20.481  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:20.482  1592  1592 D focus direction 66: 
+10-07 13:07:20.482  1592  1592 D focus Next view null: 
+10-07 13:07:20.482  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:20.482  1592  1592 D focus next view parent null: 
+10-07 13:07:20.482  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+--------- beginning of main
+10-07 13:07:21.447   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 233, expected nextSeqNum = 233
+10-07 13:07:21.448   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 233,should SeqNum=233, status = 0
+10-07 13:07:21.669  4873  4873 D MonkeyStub: translateCommand: press DPAD_RIGHT
+10-07 13:07:21.672   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:21.679  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:21.679  1592  1592 D focus content direction 66: 
+10-07 13:07:21.679  1592  1592 D focus content view null: 
+10-07 13:07:21.679   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:21.680  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:21.680  1592  1592 D focus direction 66: 
+10-07 13:07:21.680  1592  1592 D focus Next view null: 
+10-07 13:07:21.680  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:21.680  1592  1592 D focus next view parent null: 
+10-07 13:07:21.680  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+--------- beginning of kernel
+10-07 13:07:22.197     0     0 W [0 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:22.197     0     0 W [0 T1187  ..] RTW: cfg80211_rtw_get_txpower
+--------- beginning of main
+10-07 13:07:22.447   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 234, expected nextSeqNum = 234
+10-07 13:07:22.448   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 234,should SeqNum=234, status = 0
+--------- beginning of system
+10-07 13:07:22.449   708  2052 D OomAdjuster: Not killing cached processes
+10-07 13:07:22.629   427   590 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=12032000
+10-07 13:07:22.925  4873  4873 D MonkeyStub: translateCommand: press DPAD_DOWN
+10-07 13:07:22.929   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:22.932   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:22.935  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:22.935  1592  1592 D focus content direction 130: 
+10-07 13:07:22.935  1592  1592 D focus content view null: 
+10-07 13:07:22.936  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:22.936  1592  1592 D focus direction 130: 
+10-07 13:07:22.936  1592  1592 D focus Next view null: 
+10-07 13:07:22.937  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:22.937  1592  1592 D focus next view parent null: 
+10-07 13:07:22.937  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+--------- beginning of main
+10-07 13:07:23.447   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 235, expected nextSeqNum = 235
+10-07 13:07:23.448   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 235,should SeqNum=235, status = 0
+10-07 13:07:23.817  1127  1127 I ThermalService: CPU temperatures: [42.600002]
+10-07 13:07:24.145  4873  4873 D MonkeyStub: translateCommand: press DPAD_RIGHT
+10-07 13:07:24.148   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:24.152   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:24.153  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:24.153  1592  1592 D focus content direction 66: 
+10-07 13:07:24.154  1592  1592 D focus content view null: 
+10-07 13:07:24.155  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:24.155  1592  1592 D focus direction 66: 
+10-07 13:07:24.155  1592  1592 D focus Next view null: 
+10-07 13:07:24.155  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:24.155  1592  1592 D focus next view parent null: 
+10-07 13:07:24.156  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+--------- beginning of main
+10-07 13:07:24.448   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 236, expected nextSeqNum = 236
+10-07 13:07:24.449   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 236,should SeqNum=236, status = 0
+--------- beginning of kernel
+10-07 13:07:25.201     0     0 W [1 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:25.201     0     0 W [1 T1187  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:07:25.350  4873  4873 D MonkeyStub: translateCommand: press DPAD_RIGHT
+10-07 13:07:25.353   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:25.358  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:25.358  1592  1592 D focus content direction 66: 
+10-07 13:07:25.358  1592  1592 D focus content view null: 
+10-07 13:07:25.359  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:25.359  1592  1592 D focus direction 66: 
+10-07 13:07:25.359  1592  1592 D focus Next view null: 
+10-07 13:07:25.359  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:25.359  1592  1592 D focus next view parent null: 
+10-07 13:07:25.360  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+10-07 13:07:25.362   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+--------- beginning of main
+10-07 13:07:25.819  1127  1127 I ThermalService: CPU temperatures: [42.7]
+10-07 13:07:26.448   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 238, expected nextSeqNum = 238
+10-07 13:07:26.449   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 238,should SeqNum=238, status = 0
+10-07 13:07:26.550  4873  4873 D MonkeyStub: translateCommand: press DPAD_DOWN
+10-07 13:07:26.552   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:26.556   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:26.556  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:26.557  1592  1592 D focus content direction 130: 
+10-07 13:07:26.557  1592  1592 D focus content view null: 
+10-07 13:07:26.557  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:26.557  1592  1592 D focus direction 130: 
+10-07 13:07:26.558  1592  1592 D focus Next view null: 
+10-07 13:07:26.558  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:26.558  1592  1592 D focus next view parent null: 
+10-07 13:07:26.559  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+--------- beginning of main
+10-07 13:07:27.448   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 239, expected nextSeqNum = 239
+10-07 13:07:27.449   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 239,should SeqNum=239, status = 0
+10-07 13:07:27.731  4873  4873 D MonkeyStub: translateCommand: press DPAD_RIGHT
+10-07 13:07:27.734   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:27.737   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:27.740  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:27.740  1592  1592 D focus content direction 66: 
+10-07 13:07:27.740  1592  1592 D focus content view null: 
+10-07 13:07:27.741  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:27.741  1592  1592 D focus direction 66: 
+10-07 13:07:27.741  1592  1592 D focus Next view null: 
+10-07 13:07:27.741  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:27.741  1592  1592 D focus next view parent null: 
+10-07 13:07:27.742  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+--------- beginning of main
+10-07 13:07:27.962   427   590 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=12288000
+--------- beginning of kernel
+10-07 13:07:28.208     0     0 W [0 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:28.208     0     0 W [0 T1187  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:07:28.448   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 240, expected nextSeqNum = 240
+10-07 13:07:28.449   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 240,should SeqNum=240, status = 0
+10-07 13:07:28.961  4873  4873 D MonkeyStub: translateCommand: press DPAD_RIGHT
+10-07 13:07:28.964   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:28.968   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:28.970  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:28.970  1592  1592 D focus content direction 66: 
+10-07 13:07:28.970  1592  1592 D focus content view null: 
+10-07 13:07:28.971  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:28.971  1592  1592 D focus direction 66: 
+10-07 13:07:28.971  1592  1592 D focus Next view null: 
+10-07 13:07:28.971  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:28.971  1592  1592 D focus next view parent null: 
+10-07 13:07:28.971  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+--------- beginning of main
+10-07 13:07:29.448   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 241, expected nextSeqNum = 241
+10-07 13:07:29.450   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 241,should SeqNum=241, status = 0
+--------- beginning of system
+10-07 13:07:29.656   708   708 V HotPlugDetectionAction: Poll all devices.
+10-07 13:07:29.714   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 0, body:, result:no ack
+10-07 13:07:29.825  1127  1127 I ThermalService: CPU temperatures: [42.600002]
+10-07 13:07:29.969  2855  3343 I cast_shell: [1007/130729.969528:INFO:mdns_app_filter.cc(3358)] MdnsAppFilter: responses sent in 38 seconds: 10
+10-07 13:07:30.183  4873  4873 D MonkeyStub: translateCommand: press DPAD_DOWN
+10-07 13:07:30.192   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:30.194   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:30.196  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:30.196  1592  1592 D focus content direction 130: 
+10-07 13:07:30.196  1592  1592 D focus content view null: 
+10-07 13:07:30.196  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:30.196  1592  1592 D focus direction 130: 
+10-07 13:07:30.196  1592  1592 D focus Next view null: 
+10-07 13:07:30.197  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:30.197  1592  1592 D focus next view parent null: 
+10-07 13:07:30.197  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+10-07 13:07:30.271   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 1] len: 0, body:, result:no ack
+--------- beginning of main
+10-07 13:07:30.449   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 242, expected nextSeqNum = 242
+10-07 13:07:30.450   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 242,should SeqNum=242, status = 0
+10-07 13:07:30.830   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 3] len: 0, body:, result:no ack
+--------- beginning of kernel
+10-07 13:07:31.214     0     0 W [3 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:31.214     0     0 W [3 T1187  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:07:31.387   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 5] len: 0, body:, result:no ack
+10-07 13:07:31.399  4873  4873 D MonkeyStub: translateCommand: press KEYCODE_HOME
+10-07 13:07:31.402   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:31.404   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+--------- beginning of system
+10-07 13:07:31.405   708   816 D HdmiControlService: Process pid: 708 is calling oneTouchPlay.
+10-07 13:07:31.406   708   708 D HDMI    : oneTouchPlay com.android.server.hdmi.OneTouchPlayAction@ccdf152
+10-07 13:07:31.406   708   708 I OneTouchPlayAction: Start action.
+10-07 13:07:31.406   708   708 D HDMI    : setActiveSource logical:0x04 physical:0x1000 OneTouchPlayAction#broadcastActiveSource()
+10-07 13:07:31.407   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:31.407   445   461 D hdmicecd: [HdmiCecControl]:getPhysicalAddress, physical addr: 1000, last pa: 1000, ret = 0
+10-07 13:07:31.408   445   460 D hdmicecd: [HdmiCecControl]:getPhysicalAddress, physical addr: 1000, last pa: 1000, ret = 0
+10-07 13:07:31.408   708   708 D HDMI    : ActiveSourceHistoryRecord active source=(0x04, 0x1000) isActiveSource=true from=OneTouchPlayAction#broadcastActiveSource()
+10-07 13:07:31.409   708   708 D HDMI    : setActiveSource logical:0x04 physical:0x1000 ActiveSourceAction
+10-07 13:07:31.409   445   461 D hdmicecd: [HdmiCecControl]:getPhysicalAddress, physical addr: 1000, last pa: 1000, ret = 0
+10-07 13:07:31.410   445   461 D hdmicecd: [HdmiCecControl]:getPhysicalAddress, physical addr: 1000, last pa: 1000, ret = 0
+10-07 13:07:31.410   708   708 D HDMI    : ActiveSourceHistoryRecord active source=(0x04, 0x1000) isActiveSource=true from=ActiveSourceAction
+10-07 13:07:31.412   708   708 D HdmiControlService: Switching to full volume behavior
+10-07 13:07:31.412   993  1042 D WindowManagerShell: TvPipMenuController: closeMenu()
+10-07 13:07:31.412   993  1042 D WindowManagerShell: TvPipMenuController: switchToMenuMode: from=MODE_NO_MENU, to=MODE_NO_MENU
+10-07 13:07:31.414   993   993 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-07 13:07:31.420   708   708 D HdmiControlService: Switching to full volume behavior
+10-07 13:07:31.423   708   816 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-07 13:07:31.444   993  1042 V WindowManagerShell: Transition requested: android.os.BinderProxy@e96fa8d TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=596 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.airtel.tv/tv.airtel.xstream.login.LoginActivity } baseActivity=ComponentInfo{com.airtel.tv/tv.airtel.xstream.login.LoginActivity} topActivity=ComponentInfo{com.airtel.tv/tv.airtel.xstream.login.LoginActivity} origActivity=null realActivity=ComponentInfo{com.airtel.tv/tv.airtel.xstream.login.LoginActivity} numActivities=1 lastActiveTime=272613 supportsMultiWindow=false resizeMode=0 isResizeable=false minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@cadd442} topActivityType=2 pictureInPictureParams=null shouldDockBigOverlays=true launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{9bbac53 tv.airtel.xstream.login.LoginActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=false isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-07 13:07:31.445   708   816 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.airtel.tv/tv.airtel.xstream.login.LoginActivity (has extras)} with LAUNCH_MULTIPLE from uid 0 (BAL_ALLOW_ALLOWLISTED_UID) result code=0
+10-07 13:07:31.449   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 243, expected nextSeqNum = 243
+10-07 13:07:31.453   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 243,should SeqNum=243, status = 0
+10-07 13:07:31.458   708   818 D OomAdjuster: Not killing cached processes
+10-07 13:07:31.460   708   818 W ProcessStats: Tracking association SourceState{9047732 com.google.android.gms/10073 BTop #1978} whose proc state 2 is better than process ProcessState{8825170 com.google.android.gms.persistent/10073 pkg=com.google.android.gms} proc state 4 (110 skipped)
+10-07 13:07:31.465   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:31.466   485   485 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-07 13:07:31.519   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:31.520   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+--------- beginning of main
+10-07 13:07:31.663  1592  1592 D OTAWorker Started: 
+10-07 13:07:31.672  1592  1592 D OmniRemote.OTA_JNI: open file name:/data/user/0/com.airtel.tv/files/ota/Airtel-TL135-20240919-006-OTA.bin
+10-07 13:07:31.672  1592  1592 D OmniRemote.OTA_JNI: 35,51,0,6
+10-07 13:07:31.680  1592  1592 D OmniRemote.OmniBle: add services filter
+10-07 13:07:31.680  1592  1592 D OmniRemote.OmniBle: insert image ids
+10-07 13:07:31.685  1592  1592 D OmniRemote.OmniBle: device list size:0
+10-07 13:07:31.685  1592  1592 E OmniRemote.OmniBle: report device not found
+10-07 13:07:31.686  1592  1592 D MainFragment::onResume: 
+10-07 13:07:31.697  1592  1592 D ANALYTICS_IPTV: AnalyticsEventTracker ***Event***Event{ts=1728286651690, meta={"page_id":"dthNewTvChannels","box_type":"iptv","source_of_stream":"1 | TV Channels.screen_visible.none.none.none.none.none.none.none","app_version":"1.0.0024:242","box_model":"bx:1.2.3","firmware":"fw:1.2.3","source_name":"TV Channels"}, uid=5ye_gfsYCZe-PoQ4A0, did=8fb17cc052aef526, os=Android, ov=34, bn=242, nq=-1, nt=2, nct=0, lc=en|hi, av=1.0.0024, dt=STB, type=screen_visible, adid=95acddf7-5a94-4681-bf0a-0a767be9f2c3, brand=Airtel-Xstream, model=XstreamIPTV1-VT, dname=Vantiva XstreamIPTV1-VT, appId=IPTV, sId=8fb17cc052aef526, profileId=, ab_test=86079:0|108429:0|42374:0|78244:0|95458:0|75817:0|60412:1|117812:1|120676:1|113632:1|116206:0|66480:0|100390:2|76965:1|110385:0|129832:2, city=New Delhi, state=National Capital Territory of Delhi, country=India, firebase_id=687ecd54b0fd95386e529fbf62179576} Critical: false
+10-07 13:07:31.722  1592  1592 D ANALYTICS_IPTV: AnalyticsEventTracker ***Event***Event{ts=1728286651704, meta={"box_type":"iptv","source_of_stream":"1 | TV Channels.screen_visible.none.none.none.none.none.none.none | none.screen_visible.none.none.none.none.none.none.none","app_version":"1.0.0024:242","box_model":"bx:1.2.3","source":"TV Channels","firmware":"fw:1.2.3"}, uid=5ye_gfsYCZe-PoQ4A0, did=8fb17cc052aef526, os=Android, ov=34, bn=242, nq=-1, nt=2, nct=0, lc=en|hi, av=1.0.0024, dt=STB, type=screen_visible, adid=95acddf7-5a94-4681-bf0a-0a767be9f2c3, brand=Airtel-Xstream, model=XstreamIPTV1-VT, dname=Vantiva XstreamIPTV1-VT, appId=IPTV, sId=8fb17cc052aef526, profileId=, ab_test=86079:0|108429:0|42374:0|78244:0|95458:0|75817:0|60412:1|117812:1|120676:1|113632:1|116206:0|66480:0|100390:2|76965:1|110385:0|129832:2, city=New Delhi, state=National Capital Territory of Delhi, country=India, firebase_id=687ecd54b0fd95386e529fbf62179576} Critical: false
+--------- beginning of system
+10-07 13:07:31.727   993  1042 D WindowManagerShell: TvPipController: onTaskStackChanged()
+10-07 13:07:31.732  1127  3841 I NetflixService: onTaskStackChanged
+10-07 13:07:31.735  1592  1650 I com.airtel.tv: Background young concurrent copying GC freed 168622(6513KB) AllocSpace objects, 8(400KB) LOS objects, 20% free, 22MB/27MB, paused 277us,455us total 151.050ms
+10-07 13:07:31.754   708  2078 I ImeTracker: com.airtel.tv:3f296296: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR
+10-07 13:07:31.754   708  2078 I ImeTracker: com.airtel.tv:3f296296: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-07 13:07:31.762  1592  1592 D OmniRemote.OmniOTAImpl: device not found
+10-07 13:07:31.763  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3184 
+10-07 13:07:31.763  1592  1592 D OTAWorker onResult = 258: 
+10-07 13:07:31.763  1592  1592 D OTAWorker remote device not found: 
+10-07 13:07:31.764  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2246 repeatCheckTimes = 0, locked = false
+10-07 13:07:31.764  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1982 onStartInput(EditorInfo{EditorInfo{packageName=com.airtel.tv, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-07 13:07:31.764  1592  1592 D OTAWorker: MainActivity OTAWorker event received tv.airtel.xstream.util.RxEvent$RCUOtaEvents$DeviceNotFound@1ab8522
+10-07 13:07:31.765   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> f] len: 3, body: 82 10 00, result:success
+10-07 13:07:31.765  1465  1465 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2246 repeatCheckTimes = 1, locked = false
+10-07 13:07:31.765  1465  1465 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():342 EmojiCompat.init() was never called.
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at so.g(PG:3)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at abd.a(PG:6)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at edb.d(PG:1)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at edb.b(PG:6)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at com.android.inputmethod.latin.LatinIME.f(PG:286)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at epp.onStartInput(PG:170)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3115)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:824)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:853)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:197)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:294)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+10-07 13:07:31.766  1465  1465 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+10-07 13:07:31.769   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 250 ms
+10-07 13:07:31.769   708   959 D HDMI    : [S]:<Menu Status> 40:8E:00
+10-07 13:07:31.786   708   815 V WindowManager: Sent Transition #5 createdAt=10-07 13:07:31.422 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=596 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.airtel.tv/tv.airtel.xstream.login.LoginActivity } baseActivity=ComponentInfo{com.airtel.tv/tv.airtel.xstream.login.LoginActivity} topActivity=ComponentInfo{com.airtel.tv/tv.airtel.xstream.login.LoginActivity} origActivity=null realActivity=ComponentInfo{com.airtel.tv/tv.airtel.xstream.login.LoginActivity} numActivities=1 lastActiveTime=272613 supportsMultiWindow=false resizeMode=0 isResizeable=false minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{b2a5650 Task{12e277f #596 type=home A=10043:com.airtel.tv}}} topActivityType=2 pictureInPictureParams=null shouldDockBigOverlays=true launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{9335049 tv.airtel.xstream.login.LoginActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=false isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-07 13:07:31.787   993  1042 V WindowManagerShell: onTransitionReady android.os.BinderProxy@e96fa8d: {id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@fc8f28e} m=CHANGE f=MOVE_TO_TOP leash=Surface(name=Task=591)/@0xe9bd990 sb=Rect(0, 0 - 1920, 1080) eb=Rect(0, 0 - 1920, 1080) d=0}]}
+10-07 13:07:31.787   993  1042 V WindowManagerShell: Playing animation for (#5)android.os.BinderProxy@e96fa8d@0
+10-07 13:07:31.787   993  1042 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@b7d230b
+10-07 13:07:31.787   993  1042 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@a7775e8
+10-07 13:07:31.787   993  1042 V WindowManagerShell:  try handler com.android.wm.shell.pip.tv.TvPipTransition@43a1401
+10-07 13:07:31.787   993  1042 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@89902a6
+10-07 13:07:31.787   993  1042 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@fc8f28e} m=CHANGE f=MOVE_TO_TOP leash=Surface(name=Task=591)/@0xe9bd990 sb=Rect(0, 0 - 1920, 1080) eb=Rect(0, 0 - 1920, 1080) d=0}]}
+10-07 13:07:31.787   993  1042 V WindowManagerShell:  Delegate animation for #5 to null
+10-07 13:07:31.787   993  1042 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@a58e4e7
+10-07 13:07:31.787   993  1042 V WindowManagerShell: start default transition animation, info = {id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@fc8f28e} m=CHANGE f=MOVE_TO_TOP leash=Surface(name=Task=591)/@0xe9bd990 sb=Rect(0, 0 - 1920, 1080) eb=Rect(0, 0 - 1920, 1080) d=0}]}
+10-07 13:07:31.789   708   815 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-07 13:07:31.789   993  1042 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#5)android.os.BinderProxy@e96fa8d@0
+10-07 13:07:31.789   708   815 V WindowManager:     info={id=5 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{98e7d4d Task{f7070ec #591 type=standard A=10043:com.airtel.tv}}} m=CHANGE f=MOVE_TO_TOP leash=Surface(name=Task=591)/@0xd63a077 sb=Rect(0, 0 - 1920, 1080) eb=Rect(0, 0 - 1920, 1080) d=0}]}
+10-07 13:07:31.791   708   815 V WindowManager: Finish Transition #5: created at 10-07 13:07:31.422 collect-started=0.087ms request-sent=19.711ms started=25.906ms ready=203.084ms sent=362.188ms finished=368.343ms
+10-07 13:07:31.794   993  1042 V WindowManagerShell: Track 0 became idle
+10-07 13:07:31.794   993  1042 V WindowManagerShell: All active transition animations finished
+10-07 13:07:31.794   993  1042 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@a58e4e7
+10-07 13:07:31.794   993  1042 V WindowManagerShell: Track 0 became idle
+10-07 13:07:31.794   993  1042 V WindowManagerShell: All active transition animations finished
+10-07 13:07:31.823   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 2, body: 8e 00, result:no ack
+10-07 13:07:31.827  1127  1127 I ThermalService: CPU temperatures: [44.7]
+10-07 13:07:31.838  1793  4916 D AdvertisingIdClient: AdvertisingIdClient already created.
+10-07 13:07:31.840  1793  4916 I AdvertisingIdClient: shouldSendLog 45343
+10-07 13:07:31.840  1793  4916 I AdvertisingIdClient: GetInfoInternal elapse 2ms
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: Error inserting flex_time=3423000 job_id=-1 period=6848000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=243834000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1728286651874 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0 [CONTEXT service_id=218 ]
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:961)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1870)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1765)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at bgzc.d(:com.google.android.gms@243834110@24.38.34 (180306-681941525):729)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at bgwo.n(:com.google.android.gms@243834110@24.38.34 (180306-681941525):29)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at bgwo.u(:com.google.android.gms@243834110@24.38.34 (180306-681941525):360)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at bgwo.h(:com.google.android.gms@243834110@24.38.34 (180306-681941525):51)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at bgrf.run(:com.google.android.gms@243834110@24.38.34 (180306-681941525):72)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at zpa.c(:com.google.android.gms@243834110@24.38.34 (180306-681941525):50)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at zpa.run(:com.google.android.gms@243834110@24.38.34 (180306-681941525):76)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at zuh.run(:com.google.android.gms@243834110@24.38.34 (180306-681941525):8)
+10-07 13:07:31.877  1397  2768 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:1012)
+10-07 13:07:31.881   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 2, body: 8e 00, result:no ack
+10-07 13:07:31.881   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:31.882   708  4269 D AudioService: Volume controller visible: false
+10-07 13:07:31.894   708  4269 D ConnectivityService: requestNetwork for uid/pid:10043/1592 activeRequest: null callbackRequest: 160 [NetworkRequest [ REQUEST id=161, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-07 13:07:31.897   708   920 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=161, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:31.897   708   920 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=161, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:31.901   708   920 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=161, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:31.901   708   920 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=161, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:31.902   708   928 D ConnectivityService: NetReassign [161 : null → 100] [c 1] [a 1] [i 6]
+10-07 13:07:31.935   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 2, body: 8e 00, result:no ack
+10-07 13:07:31.936   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:31.991   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 2, body: 8e 00, result:no ack
+10-07 13:07:31.991   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:31.992   708   959 E HDMI    : [1]:Failed to send <Menu Status> 40:8E:00 with errorCode=1
+10-07 13:07:31.993   708   959 D HDMI    : [S]:<System Audio Mode Request> 45:70:10:00
+10-07 13:07:32.023  1592  2071 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=727acc1c-af42-4a10-bd85-303d19bc9ce1, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:32.047   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 5] len: 3, body: 70 10 00, result:no ack
+10-07 13:07:32.061   708  4269 W JobScheduler: Job didn't exist in JobStore: 757a805 #u0a43/7132 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+10-07 13:07:32.077  1592  2071 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=eed7533b-765c-4260-8e40-e2b151561ea8, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:32.103   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 5] len: 3, body: 70 10 00, result:no ack
+10-07 13:07:32.121   708  4269 W JobScheduler: Job didn't exist in JobStore: 6f40826 #u0a43/7133 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+10-07 13:07:32.159   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 5] len: 3, body: 70 10 00, result:no ack
+10-07 13:07:32.199   708  4269 D ConnectivityService: requestNetwork for uid/pid:10043/1592 activeRequest: null callbackRequest: 162 [NetworkRequest [ REQUEST id=163, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-07 13:07:32.207   708   920 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=163, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:32.207   708   920 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=163, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:32.208   708   920 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=163, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:32.208   708   920 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=163, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10043 RequestorUid: 10043 RequestorPkg: com.airtel.tv UnderlyingNetworks: Null] ]
+10-07 13:07:32.208   708   928 D ConnectivityService: NetReassign [163 : null → 100] [c 1] [a 0] [i 7]
+10-07 13:07:32.215   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 5] len: 3, body: 70 10 00, result:no ack
+10-07 13:07:32.216   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 224 ms
+10-07 13:07:32.216   708   959 E HDMI    : [1]:Failed to send <System Audio Mode Request> 45:70:10:00 with errorCode=1
+10-07 13:07:32.217   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:32.237  1127  1127 D NetflixService: handleMessage
+10-07 13:07:32.239  1127  1127 D NetflixService: com.airtel.tv is visible.
+10-07 13:07:32.239  1127  1127 D NetflixService: com.netflix.ninja is not top activity.
+10-07 13:07:32.242  1127  1127 D NetflixService: com.netflix.ninjais not top activity.
+10-07 13:07:32.242  1127  1127 I NetflixService: fg: false  mIsNetflixFg: false
+10-07 13:07:32.243  1127  1127 D NetflixService: com.airtel.tv is visible.
+10-07 13:07:32.243  1127  1127 D NetflixService: com.google.android.youtube.tv is not top activity.
+10-07 13:07:32.275   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:32.331   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:32.331   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:32.355  1592  2071 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=95a8ed17-33ed-4a8c-abff-607b32ebbb81, tags={ tv.airtel.wynk.analytics.sync.service.AnalyticsSyncService, com.airtel.analyticsSyncService } ]
+10-07 13:07:32.387   708  4269 W JobScheduler: Job didn't exist in JobStore: 217d2bd #u0a43/7134 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+10-07 13:07:32.391   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:32.432  1127  1127 D NetflixService: handleMessage
+10-07 13:07:32.437  1127  1127 D NetflixService: com.airtel.tv is visible.
+10-07 13:07:32.437  1127  1127 D NetflixService: com.netflix.ninja is not top activity.
+10-07 13:07:32.440  1127  1127 D NetflixService: com.netflix.ninjais not top activity.
+10-07 13:07:32.440  1127  1127 I NetflixService: fg: false  mIsNetflixFg: false
+10-07 13:07:32.441  1127  1127 D NetflixService: com.airtel.tv is visible.
+10-07 13:07:32.441  1127  1127 D NetflixService: com.google.android.youtube.tv is not top activity.
+10-07 13:07:32.447   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:32.448   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 116 ms
+10-07 13:07:32.448   708   959 E HDMI    : [6]:Failed to send <Give Device Power Status> 40:8F with errorCode=1
+10-07 13:07:32.449   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 244, expected nextSeqNum = 244
+10-07 13:07:32.450   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 244,should SeqNum=244, status = 0
+10-07 13:07:32.503   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 8] len: 0, body:, result:no ack
+10-07 13:07:32.504   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:32.523   708  4269 W JobScheduler: Job didn't exist in JobStore: 879f5fe #u0a43/7135 com.airtel.tv/androidx.work.impl.background.systemjob.SystemJobService
+10-07 13:07:32.559   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:32.615   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:32.615   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:32.675   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:32.731   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:32.731   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 116 ms
+10-07 13:07:33.032   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:33.059   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> b] len: 0, body:, result:no ack
+10-07 13:07:33.060   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:33.115   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:33.171   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:33.171   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:33.231   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:33.287   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:33.288   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 116 ms
+10-07 13:07:33.297   427   590 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=12544000
+10-07 13:07:33.411   708   708 D HDMI    : one touch play retry:1
+10-07 13:07:33.411   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:33.449   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 245, expected nextSeqNum = 245
+10-07 13:07:33.450   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 245,should SeqNum=245, status = 0
+10-07 13:07:33.467   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:33.523   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:33.523   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:33.579   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:33.639   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:33.639   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 116 ms
+10-07 13:07:33.640   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:33.640   708   708 D ResendCecCommandAction: ResendCecCommandAction started
+10-07 13:07:33.699   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:33.755   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:33.755   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 115 ms
+10-07 13:07:33.811   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:33.832  1127  1127 I ThermalService: CPU temperatures: [42.7]
+10-07 13:07:33.867   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:33.927   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> e] len: 0, body:, result:no ack
+10-07 13:07:33.927   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 172 ms
+10-07 13:07:33.928   708   708 D HdmiCecController: [P]:AllocatedAddress=[]
+10-07 13:07:33.928   708   708 V HotPlugDetectionAction: Finish poll all devices.
+10-07 13:07:33.940   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:33.941   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:33.995   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:34.051   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:34.052   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 111 ms
+10-07 13:07:34.107   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:34.163   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:34.164   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+--------- beginning of kernel
+10-07 13:07:34.219     0     0 W [3 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:34.219     0     0 W [3 T1187  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:07:34.449   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 246, expected nextSeqNum = 246
+10-07 13:07:34.450   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 246,should SeqNum=246, status = 0
+10-07 13:07:34.465   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:34.465   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:34.519   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:34.575   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:34.576   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:34.631   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:34.640   708  1566 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-07 13:07:34.687   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:34.688   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:35.412   708   708 D HDMI    : one touch play retry:2
+10-07 13:07:35.412   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:35.449   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 247, expected nextSeqNum = 247
+10-07 13:07:35.451   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 247,should SeqNum=247, status = 0
+10-07 13:07:35.471   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:35.527   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:35.527   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 114 ms
+10-07 13:07:35.583   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:35.639   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:35.640   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:35.640   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:35.640   708   708 D ResendCecCommandAction: ResendCecCommandAction started
+10-07 13:07:35.699   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:35.755   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:35.811   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:35.835  1127  1127 I ThermalService: CPU temperatures: [42.500004]
+10-07 13:07:35.868   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:35.868   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 227 ms
+10-07 13:07:35.941   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:35.941   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:35.995   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:36.055   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:36.055   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 114 ms
+10-07 13:07:36.112   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:36.171   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:36.172   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 117 ms
+10-07 13:07:36.450   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 248, expected nextSeqNum = 248
+10-07 13:07:36.451   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 248,should SeqNum=248, status = 0
+10-07 13:07:36.473   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:36.474   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:36.531   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:36.587   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:36.588   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:36.643   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:36.699   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:36.699   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:36.712  4873  4873 D MonkeyStub: translateCommand: press DPAD_RIGHT
+10-07 13:07:36.715   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:36.718   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:36.720  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:36.720  1592  1592 D focus content direction 66: 
+10-07 13:07:36.720  1592  1592 D focus content view null: 
+10-07 13:07:36.723  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:36.723  1592  1592 D focus direction 66: 
+10-07 13:07:36.723  1592  1592 D focus Next view null: 
+10-07 13:07:36.724  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:36.724  1592  1592 D focus next view parent null: 
+10-07 13:07:36.725  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+--------- beginning of kernel
+10-07 13:07:37.225     0     0 W [0 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:37.225     0     0 W [0 T1187  ..] RTW: cfg80211_rtw_get_txpower
+--------- beginning of system
+10-07 13:07:37.413   708   708 D HDMI    : one touch play retry:3
+10-07 13:07:37.414   708   959 D HDMI    : [S]:<Text View On> 40:0D
+--------- beginning of main
+10-07 13:07:37.450   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 249, expected nextSeqNum = 249
+10-07 13:07:37.451   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 249,should SeqNum=249, status = 0
+10-07 13:07:37.471   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:37.527   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:37.527   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:37.587   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:37.643   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:37.644   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:37.644   708   708 D ResendCecCommandAction: ResendCecCommandAction started
+10-07 13:07:37.699   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:37.755   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:37.756   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 228 ms
+10-07 13:07:37.815   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:37.839  1127  1127 I ThermalService: CPU temperatures: [42.500004]
+10-07 13:07:37.871   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:37.872   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 116 ms
+10-07 13:07:37.945   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:37.945  4873  4873 D MonkeyStub: translateCommand: press DPAD_CENTER
+10-07 13:07:37.946   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:37.948   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:37.951   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:38.000   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:38.044     0     0 I [0 T232   ..] logd: logdr: UID=2000 GID=2000 PID=5002 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+--------- beginning of main
+10-07 13:07:38.111   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:38.167   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:38.167   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:38.450   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 250, expected nextSeqNum = 250
+10-07 13:07:38.451   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 250,should SeqNum=250, status = 0
+--------- beginning of system
+10-07 13:07:38.469   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:38.469   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:38.523   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:38.579   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:38.579   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:38.629   427   590 I audio_hw_hal_alsamgr: alsa format =0x1 delay frames =1024 total frames=12800000
+10-07 13:07:38.635   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:38.691   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:38.692   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:39.146  4873  4873 D MonkeyStub: translateCommand: press DPAD_DOWN
+10-07 13:07:39.149   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:39.152   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:39.154  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:39.154  1592  1592 D focus content direction 130: 
+10-07 13:07:39.154  1592  1592 D focus content view null: 
+10-07 13:07:39.155  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:39.155  1592  1592 D focus direction 130: 
+10-07 13:07:39.155  1592  1592 D focus Next view null: 
+10-07 13:07:39.155  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:39.155  1592  1592 D focus next view parent null: 
+10-07 13:07:39.156  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+--------- beginning of system
+10-07 13:07:39.414   708   708 D HDMI    : one touch play retry:4
+10-07 13:07:39.415   708   959 D HDMI    : [S]:<Text View On> 40:0D
+--------- beginning of main
+10-07 13:07:39.450   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 251, expected nextSeqNum = 251
+10-07 13:07:39.451   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 251,should SeqNum=251, status = 0
+10-07 13:07:39.471   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:39.527   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:39.527   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:39.583   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:39.639   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:39.640   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:39.643   708   708 D ResendCecCommandAction: ResendCecCommandAction started
+10-07 13:07:39.643   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:39.699   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:39.756   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:39.811   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:39.842  1127  1127 I ThermalService: CPU temperatures: [42.500004]
+10-07 13:07:39.867   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 8f, result:no ack
+10-07 13:07:39.867   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 224 ms
+10-07 13:07:39.943   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:39.944   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:39.999   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:40.055   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:40.111   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:40.167   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:40.168   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 223 ms
+--------- beginning of kernel
+10-07 13:07:40.230     0     0 W [3 T1187  ..] RTW: rtw_get_sta_tx_stat() not support
+10-07 13:07:40.230     0     0 W [3 T1187  ..] RTW: cfg80211_rtw_get_txpower
+10-07 13:07:40.392  4873  4873 D MonkeyStub: translateCommand: press DPAD_DOWN
+10-07 13:07:40.396   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:40.399   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:40.401  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:40.401  1592  1592 D focus content direction 130: 
+10-07 13:07:40.401  1592  1592 D focus content view null: 
+10-07 13:07:40.402  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:40.402  1592  1592 D focus direction 130: 
+10-07 13:07:40.402  1592  1592 D focus Next view null: 
+10-07 13:07:40.402  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:40.403  1592  1592 D focus next view parent null: 
+10-07 13:07:40.403  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+10-07 13:07:40.450   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 252, expected nextSeqNum = 252
+10-07 13:07:40.451   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 252,should SeqNum=252, status = 0
+10-07 13:07:40.469   708   708 D ResendCecCommandAction: sendCommandWithoutRetries failed, retry
+10-07 13:07:40.469   708   959 D HDMI    : [S]:<Text View On> 40:0D
+--------- beginning of main
+10-07 13:07:40.579   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:40.579   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+10-07 13:07:40.635   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:40.691   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:40.691   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+--------- beginning of system
+10-07 13:07:41.415   708   708 D HDMI    : one touch play retry:5
+10-07 13:07:41.416   708   959 D HDMI    : [S]:<Text View On> 40:0D
+10-07 13:07:41.434   708   818 W ActivityTaskManager: Launch timeout has expired, giving up wake lock!
+10-07 13:07:41.451   429  1449 D rtk_heartbeat: heartbeat_timed_out: heartbeatCmdCount = 253, expected nextSeqNum = 253
+10-07 13:07:41.452   429  1319 D rtk_heartbeat: rtkbt_heartbeat_cmpl_cback: Current SeqNum = 253,should SeqNum=253, status = 0
+10-07 13:07:41.471   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:41.527   445   461 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:41.528   445   461 E IPCThreadState: binder thread pool (1 threads) starved for 112 ms
+10-07 13:07:41.583   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:41.588  4873  4873 D MonkeyStub: translateCommand: press DPAD_RIGHT
+10-07 13:07:41.590   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 0
+10-07 13:07:41.595   459   459 I lights-tch: flashMode 0 id 2 onMs 0 offMs 0 brightness 225
+10-07 13:07:41.597  1592  1592 D focus content view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-
+10-07 13:07:41.597  1592  1592 D focus content direction 66: 
+10-07 13:07:41.597  1592  1592 D focus content view null: 
+10-07 13:07:41.598  1592  1592 D focus view tv.airtel.xstream.widget.ContentLoadingView{a77da9f VFE...... .F.....D 0,0-1920,108
+10-07 13:07:41.598  1592  1592 D focus direction 66: 
+10-07 13:07:41.598  1592  1592 D focus Next view null: 
+10-07 13:07:41.598  1592  1592 D focus view TAg tag progress bar main: 
+10-07 13:07:41.599  1592  1592 D focus next view parent null: 
+10-07 13:07:41.600  1592  1592 D focus view parent android.widget.FrameLayout{6ff2acc V.E...... .......D 0,0-1920,1080 #7f0b02d
+10-07 13:07:41.627   708   818 D OomAdjuster: Not killing cached processes
+10-07 13:07:41.628   708   818 W ProcessStats: Tracking association SourceState{9047732 com.google.android.gms/10073 BTop #2000} whose proc state 2 is better than process ProcessState{8825170 com.google.android.gms.persistent/10073 pkg=com.google.android.gms} proc state 4 (74 skipped)
+10-07 13:07:41.640   445   445 D hdmicecd: [CEC]:printCecMessage, [4 -> 0] len: 1, body: 0d, result:no ack
+10-07 13:07:41.640   445   445 E IPCThreadState: binder thread pool (1 threads) starved for 113 ms
+10-07 13:07:41.641   708   959 D HDMI    : [S]:<Give Device Power Status> 40:8F
+10-07 13:07:41.641   708   708 D ResendCecCommandAction: ResendCecCommandAction started
